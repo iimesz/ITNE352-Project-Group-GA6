@@ -1,0 +1,5108 @@
+{
+  "pagination": {
+    "limit": 100,
+    "offset": 0,
+    "count": 100,
+    "total": 2379
+  },
+  "data": [
+    {
+      "flight_date": "2023-12-25",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Seoul (Incheon)",
+        "timezone": "Asia/Seoul",
+        "iata": "ICN",
+        "icao": "RKSI",
+        "terminal": "2",
+        "gate": null,
+        "delay": 10,
+        "scheduled": "2023-12-25T09:30:00+00:00",
+        "estimated": "2023-12-25T09:30:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "E",
+        "gate": null,
+        "baggage": null,
+        "delay": null,
+        "scheduled": "2023-12-25T09:00:00+00:00",
+        "estimated": "2023-12-25T09:00:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Delta Air Lines",
+        "iata": "DL",
+        "icao": "DAL"
+      },
+      "flight": {
+        "number": "7667",
+        "iata": "DL7667",
+        "icao": "DAL7667",
+        "codeshared": {
+          "airline_name": "korean air",
+          "airline_iata": "ke",
+          "airline_icao": "kal",
+          "flight_number": "91",
+          "flight_iata": "ke91",
+          "flight_icao": "kal91"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-25",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Seoul (Incheon)",
+        "timezone": "Asia/Seoul",
+        "iata": "ICN",
+        "icao": "RKSI",
+        "terminal": "2",
+        "gate": null,
+        "delay": 10,
+        "scheduled": "2023-12-25T09:30:00+00:00",
+        "estimated": "2023-12-25T09:30:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "E",
+        "gate": null,
+        "baggage": null,
+        "delay": null,
+        "scheduled": "2023-12-25T09:00:00+00:00",
+        "estimated": "2023-12-25T09:00:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Korean Air",
+        "iata": "KE",
+        "icao": "KAL"
+      },
+      "flight": {
+        "number": "91",
+        "iata": "KE91",
+        "icao": "KAL91",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Lisbon Portela",
+        "timezone": "Europe/Lisbon",
+        "iata": "LIS",
+        "icao": "LPPT",
+        "terminal": "1",
+        "gate": "47",
+        "delay": 39,
+        "scheduled": "2023-12-24T09:15:00+00:00",
+        "estimated": "2023-12-24T09:15:00+00:00",
+        "actual": "2023-12-24T09:53:00+00:00",
+        "estimated_runway": "2023-12-24T09:53:00+00:00",
+        "actual_runway": "2023-12-24T09:53:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "E",
+        "gate": "E16",
+        "baggage": null,
+        "delay": null,
+        "scheduled": "2023-12-24T12:20:00+00:00",
+        "estimated": "2023-12-24T12:20:00+00:00",
+        "actual": "2023-12-24T11:32:00+00:00",
+        "estimated_runway": "2023-12-24T11:32:00+00:00",
+        "actual_runway": "2023-12-24T11:32:00+00:00"
+      },
+      "airline": {
+        "name": "Delta Air Lines",
+        "iata": "DL",
+        "icao": "DAL"
+      },
+      "flight": {
+        "number": "125",
+        "iata": "DL125",
+        "icao": "DAL125",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N187DN",
+        "iata": "B763",
+        "icao": "B763",
+        "icao24": "A15B05"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Austin-bergstrom International",
+        "timezone": "America/Chicago",
+        "iata": "AUS",
+        "icao": "KAUS",
+        "terminal": null,
+        "gate": "26",
+        "delay": 13,
+        "scheduled": "2023-12-24T06:05:00+00:00",
+        "estimated": "2023-12-24T06:05:00+00:00",
+        "actual": "2023-12-24T06:17:00+00:00",
+        "estimated_runway": "2023-12-24T06:17:00+00:00",
+        "actual_runway": "2023-12-24T06:17:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "B",
+        "gate": "B19",
+        "baggage": "1",
+        "delay": null,
+        "scheduled": "2023-12-24T10:52:00+00:00",
+        "estimated": "2023-12-24T10:52:00+00:00",
+        "actual": "2023-12-24T10:45:00+00:00",
+        "estimated_runway": "2023-12-24T10:45:00+00:00",
+        "actual_runway": "2023-12-24T10:45:00+00:00"
+      },
+      "airline": {
+        "name": "Qatar Airways",
+        "iata": "QR",
+        "icao": "QTR"
+      },
+      "flight": {
+        "number": "2242",
+        "iata": "QR2242",
+        "icao": "QTR2242",
+        "codeshared": {
+          "airline_name": "american airlines",
+          "airline_iata": "aa",
+          "airline_icao": "aal",
+          "flight_number": "1194",
+          "flight_iata": "aa1194",
+          "flight_icao": "aal1194"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "active",
+      "departure": {
+        "airport": "White River",
+        "timezone": "America/New_York",
+        "iata": "LEB",
+        "icao": "KLEB",
+        "terminal": null,
+        "gate": null,
+        "delay": null,
+        "scheduled": "2023-12-24T16:45:00+00:00",
+        "estimated": "2023-12-24T16:45:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": null,
+        "baggage": null,
+        "delay": null,
+        "scheduled": "2023-12-24T17:40:00+00:00",
+        "estimated": "2023-12-24T17:40:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "JetBlue Airways",
+        "iata": "B6",
+        "icao": "JBU"
+      },
+      "flight": {
+        "number": "5173",
+        "iata": "B65173",
+        "icao": "JBU5173",
+        "codeshared": {
+          "airline_name": "cape air",
+          "airline_iata": "9k",
+          "airline_icao": "kap",
+          "flight_number": "1880",
+          "flight_iata": "9k1880",
+          "flight_icao": "kap1880"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Pittsburgh International",
+        "timezone": "America/New_York",
+        "iata": "PIT",
+        "icao": "KPIT",
+        "terminal": null,
+        "gate": "B29",
+        "delay": 12,
+        "scheduled": "2023-12-24T06:35:00+00:00",
+        "estimated": "2023-12-24T06:35:00+00:00",
+        "actual": "2023-12-24T06:30:00+00:00",
+        "estimated_runway": "2023-12-24T06:30:00+00:00",
+        "actual_runway": "2023-12-24T06:30:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C29",
+        "baggage": "7",
+        "delay": null,
+        "scheduled": "2023-12-24T08:33:00+00:00",
+        "estimated": "2023-12-24T08:33:00+00:00",
+        "actual": "2023-12-24T07:42:00+00:00",
+        "estimated_runway": "2023-12-24T07:42:00+00:00",
+        "actual_runway": "2023-12-24T07:42:00+00:00"
+      },
+      "airline": {
+        "name": "TAP Air Portugal",
+        "iata": "TP",
+        "icao": "TAP"
+      },
+      "flight": {
+        "number": "4356",
+        "iata": "TP4356",
+        "icao": "TAP4356",
+        "codeshared": {
+          "airline_name": "jetblue airways",
+          "airline_iata": "b6",
+          "airline_icao": "jbu",
+          "flight_number": "1486",
+          "flight_iata": "b61486",
+          "flight_icao": "jbu1486"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "5",
+        "gate": "19",
+        "delay": 10,
+        "scheduled": "2023-12-24T15:30:00+00:00",
+        "estimated": "2023-12-24T15:30:00+00:00",
+        "actual": "2023-12-24T15:40:00+00:00",
+        "estimated_runway": "2023-12-24T15:40:00+00:00",
+        "actual_runway": "2023-12-24T15:40:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C28",
+        "baggage": "6",
+        "delay": null,
+        "scheduled": "2023-12-24T16:51:00+00:00",
+        "estimated": "2023-12-24T16:51:00+00:00",
+        "actual": "2023-12-24T16:15:00+00:00",
+        "estimated_runway": "2023-12-24T16:15:00+00:00",
+        "actual_runway": "2023-12-24T16:15:00+00:00"
+      },
+      "airline": {
+        "name": "TAP Air Portugal",
+        "iata": "TP",
+        "icao": "TAP"
+      },
+      "flight": {
+        "number": "4304",
+        "iata": "TP4304",
+        "icao": "TAP4304",
+        "codeshared": {
+          "airline_name": "jetblue airways",
+          "airline_iata": "b6",
+          "airline_icao": "jbu",
+          "flight_number": "1318",
+          "flight_iata": "b61318",
+          "flight_icao": "jbu1318"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Washington Dulles International",
+        "timezone": "America/New_York",
+        "iata": "IAD",
+        "icao": "KIAD",
+        "terminal": null,
+        "gate": null,
+        "delay": 10,
+        "scheduled": "2023-12-24T10:11:00+00:00",
+        "estimated": "2023-12-24T10:11:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "A",
+        "gate": null,
+        "baggage": null,
+        "delay": null,
+        "scheduled": "2023-12-24T11:48:00+00:00",
+        "estimated": "2023-12-24T11:48:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Flexjet",
+        "iata": "LXJ",
+        "icao": "LXJ"
+      },
+      "flight": {
+        "number": "363",
+        "iata": "LXJ363",
+        "icao": "LXJ363",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Chicago O'hare International",
+        "timezone": "America/Chicago",
+        "iata": "ORD",
+        "icao": "KORD",
+        "terminal": "1",
+        "gate": "B3",
+        "delay": 61,
+        "scheduled": "2023-12-24T14:00:00+00:00",
+        "estimated": "2023-12-24T14:00:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "B",
+        "gate": "B28",
+        "baggage": "5",
+        "delay": null,
+        "scheduled": "2023-12-24T17:20:00+00:00",
+        "estimated": "2023-12-24T17:20:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Air New Zealand",
+        "iata": "NZ",
+        "icao": "ANZ"
+      },
+      "flight": {
+        "number": "2087",
+        "iata": "NZ2087",
+        "icao": "ANZ2087",
+        "codeshared": {
+          "airline_name": "united airlines",
+          "airline_iata": "ua",
+          "airline_icao": "ual",
+          "flight_number": "2306",
+          "flight_iata": "ua2306",
+          "flight_icao": "ual2306"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Chicago O'hare International",
+        "timezone": "America/Chicago",
+        "iata": "ORD",
+        "icao": "KORD",
+        "terminal": "1",
+        "gate": "B3",
+        "delay": 61,
+        "scheduled": "2023-12-24T14:00:00+00:00",
+        "estimated": "2023-12-24T14:00:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "B",
+        "gate": "B28",
+        "baggage": "5",
+        "delay": null,
+        "scheduled": "2023-12-24T17:20:00+00:00",
+        "estimated": "2023-12-24T17:20:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "ANA",
+        "iata": "NH",
+        "icao": "ANA"
+      },
+      "flight": {
+        "number": "7786",
+        "iata": "NH7786",
+        "icao": "ANA7786",
+        "codeshared": {
+          "airline_name": "united airlines",
+          "airline_iata": "ua",
+          "airline_icao": "ual",
+          "flight_number": "2306",
+          "flight_iata": "ua2306",
+          "flight_icao": "ual2306"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Hartsfield-jackson Atlanta International",
+        "timezone": "America/New_York",
+        "iata": "ATL",
+        "icao": "KATL",
+        "terminal": "S",
+        "gate": "A12",
+        "delay": 24,
+        "scheduled": "2023-12-24T09:57:00+00:00",
+        "estimated": "2023-12-24T09:57:00+00:00",
+        "actual": "2023-12-24T10:20:00+00:00",
+        "estimated_runway": "2023-12-24T10:20:00+00:00",
+        "actual_runway": "2023-12-24T10:20:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "A",
+        "gate": "A19",
+        "baggage": "3",
+        "delay": null,
+        "scheduled": "2023-12-24T12:35:00+00:00",
+        "estimated": "2023-12-24T12:35:00+00:00",
+        "actual": "2023-12-24T12:21:00+00:00",
+        "estimated_runway": "2023-12-24T12:21:00+00:00",
+        "actual_runway": "2023-12-24T12:21:00+00:00"
+      },
+      "airline": {
+        "name": "Delta Air Lines",
+        "iata": "DL",
+        "icao": "DAL"
+      },
+      "flight": {
+        "number": "855",
+        "iata": "DL855",
+        "icao": "DAL855",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Washington Dulles International",
+        "timezone": "America/New_York",
+        "iata": "IAD",
+        "icao": "KIAD",
+        "terminal": null,
+        "gate": "D9",
+        "delay": null,
+        "scheduled": "2023-12-24T22:23:00+00:00",
+        "estimated": "2023-12-24T22:23:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "B",
+        "gate": "B28",
+        "baggage": null,
+        "delay": null,
+        "scheduled": "2023-12-24T23:58:00+00:00",
+        "estimated": "2023-12-24T23:58:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "United Airlines",
+        "iata": "UA",
+        "icao": "UAL"
+      },
+      "flight": {
+        "number": "1709",
+        "iata": "UA1709",
+        "icao": "UAL1709",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "active",
+      "departure": {
+        "airport": "San Francisco International",
+        "timezone": "America/Los_Angeles",
+        "iata": "SFO",
+        "icao": "KSFO",
+        "terminal": "3",
+        "gate": "E5",
+        "delay": 22,
+        "scheduled": "2023-12-24T13:18:00+00:00",
+        "estimated": "2023-12-24T13:18:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "B",
+        "gate": "B31",
+        "baggage": "5",
+        "delay": null,
+        "scheduled": "2023-12-24T21:53:00+00:00",
+        "estimated": "2023-12-24T21:53:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Virgin Australia",
+        "iata": "VA",
+        "icao": "VOZ"
+      },
+      "flight": {
+        "number": "8307",
+        "iata": "VA8307",
+        "icao": "VOZ8307",
+        "codeshared": {
+          "airline_name": "united airlines",
+          "airline_iata": "ua",
+          "airline_icao": "ual",
+          "flight_number": "2374",
+          "flight_iata": "ua2374",
+          "flight_icao": "ual2374"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "active",
+      "departure": {
+        "airport": "San Francisco International",
+        "timezone": "America/Los_Angeles",
+        "iata": "SFO",
+        "icao": "KSFO",
+        "terminal": "3",
+        "gate": "E5",
+        "delay": 22,
+        "scheduled": "2023-12-24T13:18:00+00:00",
+        "estimated": "2023-12-24T13:18:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "B",
+        "gate": "B31",
+        "baggage": "5",
+        "delay": null,
+        "scheduled": "2023-12-24T21:53:00+00:00",
+        "estimated": "2023-12-24T21:53:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Air New Zealand",
+        "iata": "NZ",
+        "icao": "ANZ"
+      },
+      "flight": {
+        "number": "9013",
+        "iata": "NZ9013",
+        "icao": "ANZ9013",
+        "codeshared": {
+          "airline_name": "united airlines",
+          "airline_iata": "ua",
+          "airline_icao": "ual",
+          "flight_number": "2374",
+          "flight_iata": "ua2374",
+          "flight_icao": "ual2374"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Washington Dulles International",
+        "timezone": "America/New_York",
+        "iata": "IAD",
+        "icao": "KIAD",
+        "terminal": null,
+        "gate": "D20",
+        "delay": 9,
+        "scheduled": "2023-12-24T08:41:00+00:00",
+        "estimated": "2023-12-24T08:41:00+00:00",
+        "actual": "2023-12-24T08:49:00+00:00",
+        "estimated_runway": "2023-12-24T08:49:00+00:00",
+        "actual_runway": "2023-12-24T08:49:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "B",
+        "gate": "B25",
+        "baggage": "6",
+        "delay": null,
+        "scheduled": "2023-12-24T10:16:00+00:00",
+        "estimated": "2023-12-24T10:16:00+00:00",
+        "actual": "2023-12-24T09:53:00+00:00",
+        "estimated_runway": "2023-12-24T09:53:00+00:00",
+        "actual_runway": "2023-12-24T09:53:00+00:00"
+      },
+      "airline": {
+        "name": "EgyptAir",
+        "iata": "MS",
+        "icao": "MSR"
+      },
+      "flight": {
+        "number": "9313",
+        "iata": "MS9313",
+        "icao": "MSR9313",
+        "codeshared": {
+          "airline_name": "united airlines",
+          "airline_iata": "ua",
+          "airline_icao": "ual",
+          "flight_number": "641",
+          "flight_iata": "ua641",
+          "flight_icao": "ual641"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Washington Dulles International",
+        "timezone": "America/New_York",
+        "iata": "IAD",
+        "icao": "KIAD",
+        "terminal": null,
+        "gate": "D20",
+        "delay": 9,
+        "scheduled": "2023-12-24T08:41:00+00:00",
+        "estimated": "2023-12-24T08:41:00+00:00",
+        "actual": "2023-12-24T08:49:00+00:00",
+        "estimated_runway": "2023-12-24T08:49:00+00:00",
+        "actual_runway": "2023-12-24T08:49:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "B",
+        "gate": "B25",
+        "baggage": "6",
+        "delay": null,
+        "scheduled": "2023-12-24T10:16:00+00:00",
+        "estimated": "2023-12-24T10:16:00+00:00",
+        "actual": "2023-12-24T09:53:00+00:00",
+        "estimated_runway": "2023-12-24T09:53:00+00:00",
+        "actual_runway": "2023-12-24T09:53:00+00:00"
+      },
+      "airline": {
+        "name": "SA AVIANCA",
+        "iata": "AV",
+        "icao": "AVA"
+      },
+      "flight": {
+        "number": "2022",
+        "iata": "AV2022",
+        "icao": "AVA2022",
+        "codeshared": {
+          "airline_name": "united airlines",
+          "airline_iata": "ua",
+          "airline_icao": "ual",
+          "flight_number": "641",
+          "flight_iata": "ua641",
+          "flight_icao": "ual641"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Chicago O'hare International",
+        "timezone": "America/Chicago",
+        "iata": "ORD",
+        "icao": "KORD",
+        "terminal": "5",
+        "gate": "M2",
+        "delay": 1,
+        "scheduled": "2023-12-24T15:00:00+00:00",
+        "estimated": "2023-12-24T15:00:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "A",
+        "gate": "A2",
+        "baggage": "1",
+        "delay": null,
+        "scheduled": "2023-12-24T18:30:00+00:00",
+        "estimated": "2023-12-24T18:30:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Virgin Atlantic",
+        "iata": "VS",
+        "icao": "VIR"
+      },
+      "flight": {
+        "number": "2004",
+        "iata": "VS2004",
+        "icao": "VIR2004",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "5721",
+          "flight_iata": "dl5721",
+          "flight_icao": "dal5721"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "5",
+        "gate": "5",
+        "delay": 11,
+        "scheduled": "2023-12-24T09:00:00+00:00",
+        "estimated": "2023-12-24T09:00:00+00:00",
+        "actual": "2023-12-24T09:10:00+00:00",
+        "estimated_runway": "2023-12-24T09:10:00+00:00",
+        "actual_runway": "2023-12-24T09:10:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C31",
+        "baggage": "7",
+        "delay": null,
+        "scheduled": "2023-12-24T10:14:00+00:00",
+        "estimated": "2023-12-24T10:14:00+00:00",
+        "actual": "2023-12-24T09:47:00+00:00",
+        "estimated_runway": "2023-12-24T09:47:00+00:00",
+        "actual_runway": "2023-12-24T09:47:00+00:00"
+      },
+      "airline": {
+        "name": "JetBlue Airways",
+        "iata": "B6",
+        "icao": "JBU"
+      },
+      "flight": {
+        "number": "2818",
+        "iata": "B62818",
+        "icao": "JBU2818",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N375JB",
+        "iata": "E190",
+        "icao": "E190",
+        "icao24": "A44728"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Palm Beach International Airport",
+        "timezone": "America/New_York",
+        "iata": "PBI",
+        "icao": "KPBI",
+        "terminal": null,
+        "gate": "C16",
+        "delay": 15,
+        "scheduled": "2023-12-24T11:30:00+00:00",
+        "estimated": "2023-12-24T11:30:00+00:00",
+        "actual": "2023-12-24T11:44:00+00:00",
+        "estimated_runway": "2023-12-24T11:44:00+00:00",
+        "actual_runway": "2023-12-24T11:44:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C16",
+        "baggage": "2",
+        "delay": null,
+        "scheduled": "2023-12-24T14:37:00+00:00",
+        "estimated": "2023-12-24T14:37:00+00:00",
+        "actual": "2023-12-24T14:18:00+00:00",
+        "estimated_runway": "2023-12-24T14:18:00+00:00",
+        "actual_runway": "2023-12-24T14:18:00+00:00"
+      },
+      "airline": {
+        "name": "TAP Air Portugal",
+        "iata": "TP",
+        "icao": "TAP"
+      },
+      "flight": {
+        "number": "4344",
+        "iata": "TP4344",
+        "icao": "TAP4344",
+        "codeshared": {
+          "airline_name": "jetblue airways",
+          "airline_iata": "b6",
+          "airline_icao": "jbu",
+          "flight_number": "322",
+          "flight_iata": "b6322",
+          "flight_icao": "jbu322"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Palm Beach International Airport",
+        "timezone": "America/New_York",
+        "iata": "PBI",
+        "icao": "KPBI",
+        "terminal": null,
+        "gate": "C16",
+        "delay": 15,
+        "scheduled": "2023-12-24T11:30:00+00:00",
+        "estimated": "2023-12-24T11:30:00+00:00",
+        "actual": "2023-12-24T11:44:00+00:00",
+        "estimated_runway": "2023-12-24T11:44:00+00:00",
+        "actual_runway": "2023-12-24T11:44:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C16",
+        "baggage": "2",
+        "delay": null,
+        "scheduled": "2023-12-24T14:37:00+00:00",
+        "estimated": "2023-12-24T14:37:00+00:00",
+        "actual": "2023-12-24T14:18:00+00:00",
+        "estimated_runway": "2023-12-24T14:18:00+00:00",
+        "actual_runway": "2023-12-24T14:18:00+00:00"
+      },
+      "airline": {
+        "name": "JetBlue Airways",
+        "iata": "B6",
+        "icao": "JBU"
+      },
+      "flight": {
+        "number": "322",
+        "iata": "B6322",
+        "icao": "JBU322",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N973JT",
+        "iata": "A321",
+        "icao": "A321",
+        "icao24": "AD8FA4"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "2",
+        "gate": "A18",
+        "delay": 4,
+        "scheduled": "2023-12-24T08:25:00+00:00",
+        "estimated": "2023-12-24T08:25:00+00:00",
+        "actual": "2023-12-24T08:28:00+00:00",
+        "estimated_runway": "2023-12-24T08:28:00+00:00",
+        "actual_runway": "2023-12-24T08:28:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "E",
+        "gate": "E1",
+        "baggage": null,
+        "delay": null,
+        "scheduled": "2023-12-24T11:38:00+00:00",
+        "estimated": "2023-12-24T11:38:00+00:00",
+        "actual": "2023-12-24T10:56:00+00:00",
+        "estimated_runway": "2023-12-24T10:56:00+00:00",
+        "actual_runway": "2023-12-24T10:56:00+00:00"
+      },
+      "airline": {
+        "name": "JetBlue Airways",
+        "iata": "B6",
+        "icao": "JBU"
+      },
+      "flight": {
+        "number": "1621",
+        "iata": "B61621",
+        "icao": "JBU1621",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "5",
+        "gate": "5",
+        "delay": 14,
+        "scheduled": "2023-12-24T05:15:00+00:00",
+        "estimated": "2023-12-24T05:15:00+00:00",
+        "actual": "2023-12-24T05:29:00+00:00",
+        "estimated_runway": "2023-12-24T05:29:00+00:00",
+        "actual_runway": "2023-12-24T05:29:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C29",
+        "baggage": "7",
+        "delay": null,
+        "scheduled": "2023-12-24T06:21:00+00:00",
+        "estimated": "2023-12-24T06:21:00+00:00",
+        "actual": "2023-12-24T06:13:00+00:00",
+        "estimated_runway": "2023-12-24T06:13:00+00:00",
+        "actual_runway": "2023-12-24T06:13:00+00:00"
+      },
+      "airline": {
+        "name": "Hawaiian Airlines",
+        "iata": "HA",
+        "icao": "HAL"
+      },
+      "flight": {
+        "number": "2174",
+        "iata": "HA2174",
+        "icao": "HAL2174",
+        "codeshared": {
+          "airline_name": "jetblue airways",
+          "airline_iata": "b6",
+          "airline_icao": "jbu",
+          "flight_number": "2218",
+          "flight_iata": "b62218",
+          "flight_icao": "jbu2218"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Hopkins International",
+        "timezone": "America/New_York",
+        "iata": "CLE",
+        "icao": "KCLE",
+        "terminal": null,
+        "gate": "C6",
+        "delay": 59,
+        "scheduled": "2023-12-24T06:15:00+00:00",
+        "estimated": "2023-12-24T06:15:00+00:00",
+        "actual": "2023-12-24T07:13:00+00:00",
+        "estimated_runway": "2023-12-24T07:13:00+00:00",
+        "actual_runway": "2023-12-24T07:13:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C36",
+        "baggage": "6",
+        "delay": 29,
+        "scheduled": "2023-12-24T08:09:00+00:00",
+        "estimated": "2023-12-24T08:09:00+00:00",
+        "actual": "2023-12-24T08:38:00+00:00",
+        "estimated_runway": "2023-12-24T08:38:00+00:00",
+        "actual_runway": "2023-12-24T08:38:00+00:00"
+      },
+      "airline": {
+        "name": "JetBlue Airways",
+        "iata": "B6",
+        "icao": "JBU"
+      },
+      "flight": {
+        "number": "540",
+        "iata": "B6540",
+        "icao": "JBU540",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Hopkins International",
+        "timezone": "America/New_York",
+        "iata": "CLE",
+        "icao": "KCLE",
+        "terminal": null,
+        "gate": "C6",
+        "delay": 59,
+        "scheduled": "2023-12-24T06:15:00+00:00",
+        "estimated": "2023-12-24T06:15:00+00:00",
+        "actual": "2023-12-24T07:13:00+00:00",
+        "estimated_runway": "2023-12-24T07:13:00+00:00",
+        "actual_runway": "2023-12-24T07:13:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C36",
+        "baggage": "6",
+        "delay": 29,
+        "scheduled": "2023-12-24T08:09:00+00:00",
+        "estimated": "2023-12-24T08:09:00+00:00",
+        "actual": "2023-12-24T08:38:00+00:00",
+        "estimated_runway": "2023-12-24T08:38:00+00:00",
+        "actual_runway": "2023-12-24T08:38:00+00:00"
+      },
+      "airline": {
+        "name": "TAP Air Portugal",
+        "iata": "TP",
+        "icao": "TAP"
+      },
+      "flight": {
+        "number": "4268",
+        "iata": "TP4268",
+        "icao": "TAP4268",
+        "codeshared": {
+          "airline_name": "jetblue airways",
+          "airline_iata": "b6",
+          "airline_icao": "jbu",
+          "flight_number": "540",
+          "flight_iata": "b6540",
+          "flight_icao": "jbu540"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Hopkins International",
+        "timezone": "America/New_York",
+        "iata": "CLE",
+        "icao": "KCLE",
+        "terminal": null,
+        "gate": "C6",
+        "delay": 59,
+        "scheduled": "2023-12-24T06:15:00+00:00",
+        "estimated": "2023-12-24T06:15:00+00:00",
+        "actual": "2023-12-24T07:13:00+00:00",
+        "estimated_runway": "2023-12-24T07:13:00+00:00",
+        "actual_runway": "2023-12-24T07:13:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C36",
+        "baggage": "6",
+        "delay": 29,
+        "scheduled": "2023-12-24T08:09:00+00:00",
+        "estimated": "2023-12-24T08:09:00+00:00",
+        "actual": "2023-12-24T08:38:00+00:00",
+        "estimated_runway": "2023-12-24T08:38:00+00:00",
+        "actual_runway": "2023-12-24T08:38:00+00:00"
+      },
+      "airline": {
+        "name": "Jet Linx Aviation",
+        "iata": "JL",
+        "icao": "JTL"
+      },
+      "flight": {
+        "number": "5493",
+        "iata": "JL5493",
+        "icao": "JTL5493",
+        "codeshared": {
+          "airline_name": "jetblue airways",
+          "airline_iata": "b6",
+          "airline_icao": "jbu",
+          "flight_number": "540",
+          "flight_iata": "b6540",
+          "flight_icao": "jbu540"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Hopkins International",
+        "timezone": "America/New_York",
+        "iata": "CLE",
+        "icao": "KCLE",
+        "terminal": null,
+        "gate": "C6",
+        "delay": 59,
+        "scheduled": "2023-12-24T06:15:00+00:00",
+        "estimated": "2023-12-24T06:15:00+00:00",
+        "actual": "2023-12-24T07:13:00+00:00",
+        "estimated_runway": "2023-12-24T07:13:00+00:00",
+        "actual_runway": "2023-12-24T07:13:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C36",
+        "baggage": "6",
+        "delay": 29,
+        "scheduled": "2023-12-24T08:09:00+00:00",
+        "estimated": "2023-12-24T08:09:00+00:00",
+        "actual": "2023-12-24T08:38:00+00:00",
+        "estimated_runway": "2023-12-24T08:38:00+00:00",
+        "actual_runway": "2023-12-24T08:38:00+00:00"
+      },
+      "airline": {
+        "name": "Hawaiian Airlines",
+        "iata": "HA",
+        "icao": "HAL"
+      },
+      "flight": {
+        "number": "2404",
+        "iata": "HA2404",
+        "icao": "HAL2404",
+        "codeshared": {
+          "airline_name": "jetblue airways",
+          "airline_iata": "b6",
+          "airline_icao": "jbu",
+          "flight_number": "540",
+          "flight_iata": "b6540",
+          "flight_icao": "jbu540"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Baltimore/Washington International Thurgood Marshall",
+        "timezone": "America/New_York",
+        "iata": "BWI",
+        "icao": "KBWI",
+        "terminal": null,
+        "gate": "A9",
+        "delay": 9,
+        "scheduled": "2023-12-24T19:25:00+00:00",
+        "estimated": "2023-12-24T19:25:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "B",
+        "gate": "B33",
+        "baggage": "8",
+        "delay": null,
+        "scheduled": "2023-12-24T20:50:00+00:00",
+        "estimated": "2023-12-24T20:50:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Southwest Airlines",
+        "iata": "WN",
+        "icao": "SWA"
+      },
+      "flight": {
+        "number": "4501",
+        "iata": "WN4501",
+        "icao": "SWA4501",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Charlotte Douglas",
+        "timezone": "America/New_York",
+        "iata": "CLT",
+        "icao": "KCLT",
+        "terminal": null,
+        "gate": "A1",
+        "delay": 21,
+        "scheduled": "2023-12-24T07:35:00+00:00",
+        "estimated": "2023-12-24T07:35:00+00:00",
+        "actual": "2023-12-24T07:55:00+00:00",
+        "estimated_runway": "2023-12-24T07:55:00+00:00",
+        "actual_runway": "2023-12-24T07:55:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "A",
+        "gate": "A4",
+        "baggage": "2",
+        "delay": null,
+        "scheduled": "2023-12-24T09:58:00+00:00",
+        "estimated": "2023-12-24T09:58:00+00:00",
+        "actual": "2023-12-24T09:36:00+00:00",
+        "estimated_runway": "2023-12-24T09:36:00+00:00",
+        "actual_runway": "2023-12-24T09:36:00+00:00"
+      },
+      "airline": {
+        "name": "Delta Air Lines",
+        "iata": "DL",
+        "icao": "DAL"
+      },
+      "flight": {
+        "number": "5638",
+        "iata": "DL5638",
+        "icao": "DAL5638",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Charlotte Douglas",
+        "timezone": "America/New_York",
+        "iata": "CLT",
+        "icao": "KCLT",
+        "terminal": null,
+        "gate": "D3",
+        "delay": 18,
+        "scheduled": "2023-12-24T07:34:00+00:00",
+        "estimated": "2023-12-24T07:34:00+00:00",
+        "actual": "2023-12-24T07:52:00+00:00",
+        "estimated_runway": "2023-12-24T07:52:00+00:00",
+        "actual_runway": "2023-12-24T07:52:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "B",
+        "gate": "B17",
+        "baggage": "1",
+        "delay": null,
+        "scheduled": "2023-12-24T09:43:00+00:00",
+        "estimated": "2023-12-24T09:43:00+00:00",
+        "actual": "2023-12-24T09:31:00+00:00",
+        "estimated_runway": "2023-12-24T09:31:00+00:00",
+        "actual_runway": "2023-12-24T09:31:00+00:00"
+      },
+      "airline": {
+        "name": "American Airlines",
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "flight": {
+        "number": "1413",
+        "iata": "AA1413",
+        "icao": "AAL1413",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Charlotte Douglas",
+        "timezone": "America/New_York",
+        "iata": "CLT",
+        "icao": "KCLT",
+        "terminal": null,
+        "gate": "D3",
+        "delay": 18,
+        "scheduled": "2023-12-24T07:34:00+00:00",
+        "estimated": "2023-12-24T07:34:00+00:00",
+        "actual": "2023-12-24T07:52:00+00:00",
+        "estimated_runway": "2023-12-24T07:52:00+00:00",
+        "actual_runway": "2023-12-24T07:52:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "B",
+        "gate": "B17",
+        "baggage": "1",
+        "delay": null,
+        "scheduled": "2023-12-24T09:43:00+00:00",
+        "estimated": "2023-12-24T09:43:00+00:00",
+        "actual": "2023-12-24T09:31:00+00:00",
+        "estimated_runway": "2023-12-24T09:31:00+00:00",
+        "actual_runway": "2023-12-24T09:31:00+00:00"
+      },
+      "airline": {
+        "name": "Jet Linx Aviation",
+        "iata": "JL",
+        "icao": "JTL"
+      },
+      "flight": {
+        "number": "7607",
+        "iata": "JL7607",
+        "icao": "JTL7607",
+        "codeshared": {
+          "airline_name": "american airlines",
+          "airline_iata": "aa",
+          "airline_icao": "aal",
+          "flight_number": "1413",
+          "flight_iata": "aa1413",
+          "flight_icao": "aal1413"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Seoul (Incheon)",
+        "timezone": "Asia/Seoul",
+        "iata": "ICN",
+        "icao": "RKSI",
+        "terminal": "2",
+        "gate": "257",
+        "delay": 72,
+        "scheduled": "2023-12-24T09:30:00+00:00",
+        "estimated": "2023-12-24T09:30:00+00:00",
+        "actual": "2023-12-24T10:42:00+00:00",
+        "estimated_runway": "2023-12-24T10:42:00+00:00",
+        "actual_runway": "2023-12-24T10:42:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "E",
+        "gate": null,
+        "baggage": null,
+        "delay": 38,
+        "scheduled": "2023-12-24T09:00:00+00:00",
+        "estimated": "2023-12-24T09:00:00+00:00",
+        "actual": "2023-12-24T09:38:00+00:00",
+        "estimated_runway": "2023-12-24T09:38:00+00:00",
+        "actual_runway": "2023-12-24T09:38:00+00:00"
+      },
+      "airline": {
+        "name": "Korean Air",
+        "iata": "KE",
+        "icao": "KAL"
+      },
+      "flight": {
+        "number": "91",
+        "iata": "KE91",
+        "icao": "KAL91",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "HL8081",
+        "iata": "B789",
+        "icao": "B789",
+        "icao24": "71C081"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Seoul (Incheon)",
+        "timezone": "Asia/Seoul",
+        "iata": "ICN",
+        "icao": "RKSI",
+        "terminal": "2",
+        "gate": "257",
+        "delay": 72,
+        "scheduled": "2023-12-24T09:30:00+00:00",
+        "estimated": "2023-12-24T09:30:00+00:00",
+        "actual": "2023-12-24T10:42:00+00:00",
+        "estimated_runway": "2023-12-24T10:42:00+00:00",
+        "actual_runway": "2023-12-24T10:42:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "E",
+        "gate": null,
+        "baggage": null,
+        "delay": 38,
+        "scheduled": "2023-12-24T09:00:00+00:00",
+        "estimated": "2023-12-24T09:00:00+00:00",
+        "actual": "2023-12-24T09:38:00+00:00",
+        "estimated_runway": "2023-12-24T09:38:00+00:00",
+        "actual_runway": "2023-12-24T09:38:00+00:00"
+      },
+      "airline": {
+        "name": "Delta Air Lines",
+        "iata": "DL",
+        "icao": "DAL"
+      },
+      "flight": {
+        "number": "7667",
+        "iata": "DL7667",
+        "icao": "DAL7667",
+        "codeshared": {
+          "airline_name": "korean air",
+          "airline_iata": "ke",
+          "airline_icao": "kal",
+          "flight_number": "91",
+          "flight_iata": "ke91",
+          "flight_icao": "kal91"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Istanbul Airport",
+        "timezone": "Europe/Istanbul",
+        "iata": "IST",
+        "icao": "LTFM",
+        "terminal": null,
+        "gate": "D11",
+        "delay": 44,
+        "scheduled": "2023-12-24T15:50:00+00:00",
+        "estimated": "2023-12-24T15:50:00+00:00",
+        "actual": "2023-12-24T16:33:00+00:00",
+        "estimated_runway": "2023-12-24T16:33:00+00:00",
+        "actual_runway": "2023-12-24T16:33:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "E",
+        "gate": null,
+        "baggage": null,
+        "delay": 26,
+        "scheduled": "2023-12-24T18:25:00+00:00",
+        "estimated": "2023-12-24T18:25:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Pakistan International Airlines",
+        "iata": "PK",
+        "icao": "PIA"
+      },
+      "flight": {
+        "number": "5081",
+        "iata": "PK5081",
+        "icao": "PIA5081",
+        "codeshared": {
+          "airline_name": "turkish airlines",
+          "airline_iata": "tk",
+          "airline_icao": "thy",
+          "flight_number": "81",
+          "flight_iata": "tk81",
+          "flight_icao": "thy81"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Istanbul Airport",
+        "timezone": "Europe/Istanbul",
+        "iata": "IST",
+        "icao": "LTFM",
+        "terminal": null,
+        "gate": "D11",
+        "delay": 44,
+        "scheduled": "2023-12-24T15:50:00+00:00",
+        "estimated": "2023-12-24T15:50:00+00:00",
+        "actual": "2023-12-24T16:33:00+00:00",
+        "estimated_runway": "2023-12-24T16:33:00+00:00",
+        "actual_runway": "2023-12-24T16:33:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "E",
+        "gate": null,
+        "baggage": null,
+        "delay": 26,
+        "scheduled": "2023-12-24T18:25:00+00:00",
+        "estimated": "2023-12-24T18:25:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "JetBlue Airways",
+        "iata": "B6",
+        "icao": "JBU"
+      },
+      "flight": {
+        "number": "6901",
+        "iata": "B66901",
+        "icao": "JBU6901",
+        "codeshared": {
+          "airline_name": "turkish airlines",
+          "airline_iata": "tk",
+          "airline_icao": "thy",
+          "flight_number": "81",
+          "flight_iata": "tk81",
+          "flight_icao": "thy81"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Istanbul Airport",
+        "timezone": "Europe/Istanbul",
+        "iata": "IST",
+        "icao": "LTFM",
+        "terminal": null,
+        "gate": "D11",
+        "delay": 44,
+        "scheduled": "2023-12-24T15:50:00+00:00",
+        "estimated": "2023-12-24T15:50:00+00:00",
+        "actual": "2023-12-24T16:33:00+00:00",
+        "estimated_runway": "2023-12-24T16:33:00+00:00",
+        "actual_runway": "2023-12-24T16:33:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "E",
+        "gate": null,
+        "baggage": null,
+        "delay": 26,
+        "scheduled": "2023-12-24T18:25:00+00:00",
+        "estimated": "2023-12-24T18:25:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      },
+      "flight": {
+        "number": "4224",
+        "iata": "6E4224",
+        "icao": "IGO4224",
+        "codeshared": {
+          "airline_name": "turkish airlines",
+          "airline_iata": "tk",
+          "airline_icao": "thy",
+          "flight_number": "81",
+          "flight_iata": "tk81",
+          "flight_icao": "thy81"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Pierre Elliott Trudeau International",
+        "timezone": "America/Montreal",
+        "iata": "YUL",
+        "icao": "CYUL",
+        "terminal": null,
+        "gate": "C80",
+        "delay": 15,
+        "scheduled": "2023-12-24T08:00:00+00:00",
+        "estimated": "2023-12-24T08:00:00+00:00",
+        "actual": "2023-12-24T08:15:00+00:00",
+        "estimated_runway": "2023-12-24T08:15:00+00:00",
+        "actual_runway": "2023-12-24T08:15:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "B",
+        "gate": "B1",
+        "baggage": "1",
+        "delay": null,
+        "scheduled": "2023-12-24T09:31:00+00:00",
+        "estimated": "2023-12-24T09:31:00+00:00",
+        "actual": "2023-12-24T09:06:00+00:00",
+        "estimated_runway": "2023-12-24T09:06:00+00:00",
+        "actual_runway": "2023-12-24T09:06:00+00:00"
+      },
+      "airline": {
+        "name": "Air Canada",
+        "iata": "AC",
+        "icao": "ACA"
+      },
+      "flight": {
+        "number": "748",
+        "iata": "AC748",
+        "icao": "ACA748",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Pierre Elliott Trudeau International",
+        "timezone": "America/Montreal",
+        "iata": "YUL",
+        "icao": "CYUL",
+        "terminal": null,
+        "gate": "C80",
+        "delay": 15,
+        "scheduled": "2023-12-24T08:00:00+00:00",
+        "estimated": "2023-12-24T08:00:00+00:00",
+        "actual": "2023-12-24T08:15:00+00:00",
+        "estimated_runway": "2023-12-24T08:15:00+00:00",
+        "actual_runway": "2023-12-24T08:15:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "B",
+        "gate": "B1",
+        "baggage": "1",
+        "delay": null,
+        "scheduled": "2023-12-24T09:31:00+00:00",
+        "estimated": "2023-12-24T09:31:00+00:00",
+        "actual": "2023-12-24T09:06:00+00:00",
+        "estimated_runway": "2023-12-24T09:06:00+00:00",
+        "actual_runway": "2023-12-24T09:06:00+00:00"
+      },
+      "airline": {
+        "name": "United Airlines",
+        "iata": "UA",
+        "icao": "UAL"
+      },
+      "flight": {
+        "number": "8416",
+        "iata": "UA8416",
+        "icao": "UAL8416",
+        "codeshared": {
+          "airline_name": "air canada",
+          "airline_iata": "ac",
+          "airline_icao": "aca",
+          "flight_number": "748",
+          "flight_iata": "ac748",
+          "flight_icao": "aca748"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Indianapolis International",
+        "timezone": "America/Indiana/Indianapolis",
+        "iata": "IND",
+        "icao": "KIND",
+        "terminal": null,
+        "gate": "A11",
+        "delay": 25,
+        "scheduled": "2023-12-24T07:00:00+00:00",
+        "estimated": "2023-12-24T07:00:00+00:00",
+        "actual": "2023-12-24T07:25:00+00:00",
+        "estimated_runway": "2023-12-24T07:25:00+00:00",
+        "actual_runway": "2023-12-24T07:25:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "A",
+        "gate": "A7",
+        "baggage": "2",
+        "delay": null,
+        "scheduled": "2023-12-24T09:23:00+00:00",
+        "estimated": "2023-12-24T09:23:00+00:00",
+        "actual": "2023-12-24T09:13:00+00:00",
+        "estimated_runway": "2023-12-24T09:13:00+00:00",
+        "actual_runway": "2023-12-24T09:13:00+00:00"
+      },
+      "airline": {
+        "name": "Virgin Atlantic",
+        "iata": "VS",
+        "icao": "VIR"
+      },
+      "flight": {
+        "number": "4200",
+        "iata": "VS4200",
+        "icao": "VIR4200",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "5645",
+          "flight_iata": "dl5645",
+          "flight_icao": "dal5645"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Indianapolis International",
+        "timezone": "America/Indiana/Indianapolis",
+        "iata": "IND",
+        "icao": "KIND",
+        "terminal": null,
+        "gate": "A11",
+        "delay": 25,
+        "scheduled": "2023-12-24T07:00:00+00:00",
+        "estimated": "2023-12-24T07:00:00+00:00",
+        "actual": "2023-12-24T07:25:00+00:00",
+        "estimated_runway": "2023-12-24T07:25:00+00:00",
+        "actual_runway": "2023-12-24T07:25:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "A",
+        "gate": "A7",
+        "baggage": "2",
+        "delay": null,
+        "scheduled": "2023-12-24T09:23:00+00:00",
+        "estimated": "2023-12-24T09:23:00+00:00",
+        "actual": "2023-12-24T09:13:00+00:00",
+        "estimated_runway": "2023-12-24T09:13:00+00:00",
+        "actual_runway": "2023-12-24T09:13:00+00:00"
+      },
+      "airline": {
+        "name": "Korean Air",
+        "iata": "KE",
+        "icao": "KAL"
+      },
+      "flight": {
+        "number": "3316",
+        "iata": "KE3316",
+        "icao": "KAL3316",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "5645",
+          "flight_iata": "dl5645",
+          "flight_icao": "dal5645"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Charleston, AFB Municipal",
+        "timezone": "America/New_York",
+        "iata": "CHS",
+        "icao": "KCHS",
+        "terminal": null,
+        "gate": "A5",
+        "delay": 6,
+        "scheduled": "2023-12-24T13:45:00+00:00",
+        "estimated": "2023-12-24T13:45:00+00:00",
+        "actual": "2023-12-24T13:50:00+00:00",
+        "estimated_runway": "2023-12-24T13:50:00+00:00",
+        "actual_runway": "2023-12-24T13:50:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "A",
+        "gate": "A2",
+        "baggage": "2",
+        "delay": null,
+        "scheduled": "2023-12-24T16:04:00+00:00",
+        "estimated": "2023-12-24T16:04:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Air France",
+        "iata": "AF",
+        "icao": "AFR"
+      },
+      "flight": {
+        "number": "5829",
+        "iata": "AF5829",
+        "icao": "AFR5829",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "1073",
+          "flight_iata": "dl1073",
+          "flight_icao": "dal1073"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Charleston, AFB Municipal",
+        "timezone": "America/New_York",
+        "iata": "CHS",
+        "icao": "KCHS",
+        "terminal": null,
+        "gate": "A5",
+        "delay": 6,
+        "scheduled": "2023-12-24T13:45:00+00:00",
+        "estimated": "2023-12-24T13:45:00+00:00",
+        "actual": "2023-12-24T13:50:00+00:00",
+        "estimated_runway": "2023-12-24T13:50:00+00:00",
+        "actual_runway": "2023-12-24T13:50:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "A",
+        "gate": "A2",
+        "baggage": "2",
+        "delay": null,
+        "scheduled": "2023-12-24T16:04:00+00:00",
+        "estimated": "2023-12-24T16:04:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Korean Air",
+        "iata": "KE",
+        "icao": "KAL"
+      },
+      "flight": {
+        "number": "3324",
+        "iata": "KE3324",
+        "icao": "KAL3324",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "1073",
+          "flight_iata": "dl1073",
+          "flight_icao": "dal1073"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Hopkins International",
+        "timezone": "America/New_York",
+        "iata": "CLE",
+        "icao": "KCLE",
+        "terminal": null,
+        "gate": "C6",
+        "delay": 6,
+        "scheduled": "2023-12-24T11:07:00+00:00",
+        "estimated": "2023-12-24T11:07:00+00:00",
+        "actual": "2023-12-24T11:12:00+00:00",
+        "estimated_runway": "2023-12-24T11:12:00+00:00",
+        "actual_runway": "2023-12-24T11:12:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C10",
+        "baggage": "2",
+        "delay": null,
+        "scheduled": "2023-12-24T12:50:00+00:00",
+        "estimated": "2023-12-24T12:50:00+00:00",
+        "actual": "2023-12-24T12:36:00+00:00",
+        "estimated_runway": "2023-12-24T12:36:00+00:00",
+        "actual_runway": "2023-12-24T12:36:00+00:00"
+      },
+      "airline": {
+        "name": "JetBlue Airways",
+        "iata": "B6",
+        "icao": "JBU"
+      },
+      "flight": {
+        "number": "2040",
+        "iata": "B62040",
+        "icao": "JBU2040",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Hopkins International",
+        "timezone": "America/New_York",
+        "iata": "CLE",
+        "icao": "KCLE",
+        "terminal": null,
+        "gate": "C6",
+        "delay": 6,
+        "scheduled": "2023-12-24T11:07:00+00:00",
+        "estimated": "2023-12-24T11:07:00+00:00",
+        "actual": "2023-12-24T11:12:00+00:00",
+        "estimated_runway": "2023-12-24T11:12:00+00:00",
+        "actual_runway": "2023-12-24T11:12:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C10",
+        "baggage": "2",
+        "delay": null,
+        "scheduled": "2023-12-24T12:50:00+00:00",
+        "estimated": "2023-12-24T12:50:00+00:00",
+        "actual": "2023-12-24T12:36:00+00:00",
+        "estimated_runway": "2023-12-24T12:36:00+00:00",
+        "actual_runway": "2023-12-24T12:36:00+00:00"
+      },
+      "airline": {
+        "name": "TAP Air Portugal",
+        "iata": "TP",
+        "icao": "TAP"
+      },
+      "flight": {
+        "number": "4270",
+        "iata": "TP4270",
+        "icao": "TAP4270",
+        "codeshared": {
+          "airline_name": "jetblue airways",
+          "airline_iata": "b6",
+          "airline_icao": "jbu",
+          "flight_number": "2040",
+          "flight_iata": "b62040",
+          "flight_icao": "jbu2040"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Hopkins International",
+        "timezone": "America/New_York",
+        "iata": "CLE",
+        "icao": "KCLE",
+        "terminal": null,
+        "gate": "C6",
+        "delay": 6,
+        "scheduled": "2023-12-24T11:07:00+00:00",
+        "estimated": "2023-12-24T11:07:00+00:00",
+        "actual": "2023-12-24T11:12:00+00:00",
+        "estimated_runway": "2023-12-24T11:12:00+00:00",
+        "actual_runway": "2023-12-24T11:12:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C10",
+        "baggage": "2",
+        "delay": null,
+        "scheduled": "2023-12-24T12:50:00+00:00",
+        "estimated": "2023-12-24T12:50:00+00:00",
+        "actual": "2023-12-24T12:36:00+00:00",
+        "estimated_runway": "2023-12-24T12:36:00+00:00",
+        "actual_runway": "2023-12-24T12:36:00+00:00"
+      },
+      "airline": {
+        "name": "Qatar Airways",
+        "iata": "QR",
+        "icao": "QTR"
+      },
+      "flight": {
+        "number": "3893",
+        "iata": "QR3893",
+        "icao": "QTR3893",
+        "codeshared": {
+          "airline_name": "jetblue airways",
+          "airline_iata": "b6",
+          "airline_icao": "jbu",
+          "flight_number": "2040",
+          "flight_iata": "b62040",
+          "flight_icao": "jbu2040"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Hopkins International",
+        "timezone": "America/New_York",
+        "iata": "CLE",
+        "icao": "KCLE",
+        "terminal": null,
+        "gate": "C6",
+        "delay": 6,
+        "scheduled": "2023-12-24T11:07:00+00:00",
+        "estimated": "2023-12-24T11:07:00+00:00",
+        "actual": "2023-12-24T11:12:00+00:00",
+        "estimated_runway": "2023-12-24T11:12:00+00:00",
+        "actual_runway": "2023-12-24T11:12:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C10",
+        "baggage": "2",
+        "delay": null,
+        "scheduled": "2023-12-24T12:50:00+00:00",
+        "estimated": "2023-12-24T12:50:00+00:00",
+        "actual": "2023-12-24T12:36:00+00:00",
+        "estimated_runway": "2023-12-24T12:36:00+00:00",
+        "actual_runway": "2023-12-24T12:36:00+00:00"
+      },
+      "airline": {
+        "name": "El Al",
+        "iata": "LY",
+        "icao": "ELY"
+      },
+      "flight": {
+        "number": "8511",
+        "iata": "LY8511",
+        "icao": "ELY8511",
+        "codeshared": {
+          "airline_name": "jetblue airways",
+          "airline_iata": "b6",
+          "airline_icao": "jbu",
+          "flight_number": "2040",
+          "flight_iata": "b62040",
+          "flight_icao": "jbu2040"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Hopkins International",
+        "timezone": "America/New_York",
+        "iata": "CLE",
+        "icao": "KCLE",
+        "terminal": null,
+        "gate": "C6",
+        "delay": 6,
+        "scheduled": "2023-12-24T11:07:00+00:00",
+        "estimated": "2023-12-24T11:07:00+00:00",
+        "actual": "2023-12-24T11:12:00+00:00",
+        "estimated_runway": "2023-12-24T11:12:00+00:00",
+        "actual_runway": "2023-12-24T11:12:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C10",
+        "baggage": "2",
+        "delay": null,
+        "scheduled": "2023-12-24T12:50:00+00:00",
+        "estimated": "2023-12-24T12:50:00+00:00",
+        "actual": "2023-12-24T12:36:00+00:00",
+        "estimated_runway": "2023-12-24T12:36:00+00:00",
+        "actual_runway": "2023-12-24T12:36:00+00:00"
+      },
+      "airline": {
+        "name": "Hawaiian Airlines",
+        "iata": "HA",
+        "icao": "HAL"
+      },
+      "flight": {
+        "number": "2402",
+        "iata": "HA2402",
+        "icao": "HAL2402",
+        "codeshared": {
+          "airline_name": "jetblue airways",
+          "airline_iata": "b6",
+          "airline_icao": "jbu",
+          "flight_number": "2040",
+          "flight_iata": "b62040",
+          "flight_icao": "jbu2040"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Hopkins International",
+        "timezone": "America/New_York",
+        "iata": "CLE",
+        "icao": "KCLE",
+        "terminal": null,
+        "gate": "C6",
+        "delay": 6,
+        "scheduled": "2023-12-24T11:07:00+00:00",
+        "estimated": "2023-12-24T11:07:00+00:00",
+        "actual": "2023-12-24T11:12:00+00:00",
+        "estimated_runway": "2023-12-24T11:12:00+00:00",
+        "actual_runway": "2023-12-24T11:12:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C10",
+        "baggage": "2",
+        "delay": null,
+        "scheduled": "2023-12-24T12:50:00+00:00",
+        "estimated": "2023-12-24T12:50:00+00:00",
+        "actual": "2023-12-24T12:36:00+00:00",
+        "estimated_runway": "2023-12-24T12:36:00+00:00",
+        "actual_runway": "2023-12-24T12:36:00+00:00"
+      },
+      "airline": {
+        "name": "Icelandair",
+        "iata": "FI",
+        "icao": "ICE"
+      },
+      "flight": {
+        "number": "7822",
+        "iata": "FI7822",
+        "icao": "ICE7822",
+        "codeshared": {
+          "airline_name": "jetblue airways",
+          "airline_iata": "b6",
+          "airline_icao": "jbu",
+          "flight_number": "2040",
+          "flight_iata": "b62040",
+          "flight_icao": "jbu2040"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Nantucket Memorial",
+        "timezone": "America/New_York",
+        "iata": "ACK",
+        "icao": "KACK",
+        "terminal": null,
+        "gate": null,
+        "delay": null,
+        "scheduled": "2023-12-24T16:55:00+00:00",
+        "estimated": "2023-12-24T16:55:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": null,
+        "gate": null,
+        "baggage": null,
+        "delay": null,
+        "scheduled": "2023-12-24T17:46:00+00:00",
+        "estimated": "2023-12-24T17:46:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Cape Air",
+        "iata": "9K",
+        "icao": "KAP"
+      },
+      "flight": {
+        "number": "22",
+        "iata": "9K22",
+        "icao": "KAP22",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "5",
+        "gate": "10",
+        "delay": 20,
+        "scheduled": "2023-12-24T07:30:00+00:00",
+        "estimated": "2023-12-24T07:30:00+00:00",
+        "actual": "2023-12-24T07:49:00+00:00",
+        "estimated_runway": "2023-12-24T07:49:00+00:00",
+        "actual_runway": "2023-12-24T07:49:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C30",
+        "baggage": "7",
+        "delay": null,
+        "scheduled": "2023-12-24T08:41:00+00:00",
+        "estimated": "2023-12-24T08:41:00+00:00",
+        "actual": "2023-12-24T08:24:00+00:00",
+        "estimated_runway": "2023-12-24T08:24:00+00:00",
+        "actual_runway": "2023-12-24T08:24:00+00:00"
+      },
+      "airline": {
+        "name": "JetBlue Airways",
+        "iata": "B6",
+        "icao": "JBU"
+      },
+      "flight": {
+        "number": "718",
+        "iata": "B6718",
+        "icao": "JBU718",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N3065J",
+        "iata": "BCS3",
+        "icao": "BCS3",
+        "icao24": "A338AC"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Orlando International",
+        "timezone": "America/New_York",
+        "iata": "MCO",
+        "icao": "KMCO",
+        "terminal": "B",
+        "gate": "71",
+        "delay": 1,
+        "scheduled": "2023-12-24T08:00:00+00:00",
+        "estimated": "2023-12-24T08:00:00+00:00",
+        "actual": "2023-12-24T08:01:00+00:00",
+        "estimated_runway": "2023-12-24T08:01:00+00:00",
+        "actual_runway": "2023-12-24T08:01:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "A",
+        "gate": "A17",
+        "baggage": "4",
+        "delay": null,
+        "scheduled": "2023-12-24T11:00:00+00:00",
+        "estimated": "2023-12-24T11:00:00+00:00",
+        "actual": "2023-12-24T10:32:00+00:00",
+        "estimated_runway": "2023-12-24T10:32:00+00:00",
+        "actual_runway": "2023-12-24T10:32:00+00:00"
+      },
+      "airline": {
+        "name": "Virgin Atlantic",
+        "iata": "VS",
+        "icao": "VIR"
+      },
+      "flight": {
+        "number": "4234",
+        "iata": "VS4234",
+        "icao": "VIR4234",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "1668",
+          "flight_iata": "dl1668",
+          "flight_icao": "dal1668"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Orlando International",
+        "timezone": "America/New_York",
+        "iata": "MCO",
+        "icao": "KMCO",
+        "terminal": "B",
+        "gate": "71",
+        "delay": 1,
+        "scheduled": "2023-12-24T08:00:00+00:00",
+        "estimated": "2023-12-24T08:00:00+00:00",
+        "actual": "2023-12-24T08:01:00+00:00",
+        "estimated_runway": "2023-12-24T08:01:00+00:00",
+        "actual_runway": "2023-12-24T08:01:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "A",
+        "gate": "A17",
+        "baggage": "4",
+        "delay": null,
+        "scheduled": "2023-12-24T11:00:00+00:00",
+        "estimated": "2023-12-24T11:00:00+00:00",
+        "actual": "2023-12-24T10:32:00+00:00",
+        "estimated_runway": "2023-12-24T10:32:00+00:00",
+        "actual_runway": "2023-12-24T10:32:00+00:00"
+      },
+      "airline": {
+        "name": "Korean Air",
+        "iata": "KE",
+        "icao": "KAL"
+      },
+      "flight": {
+        "number": "3991",
+        "iata": "KE3991",
+        "icao": "KAL3991",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "1668",
+          "flight_iata": "dl1668",
+          "flight_icao": "dal1668"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Orlando International",
+        "timezone": "America/New_York",
+        "iata": "MCO",
+        "icao": "KMCO",
+        "terminal": "C",
+        "gate": "244",
+        "delay": 12,
+        "scheduled": "2023-12-24T08:00:00+00:00",
+        "estimated": "2023-12-24T08:00:00+00:00",
+        "actual": "2023-12-24T08:11:00+00:00",
+        "estimated_runway": "2023-12-24T08:11:00+00:00",
+        "actual_runway": "2023-12-24T08:11:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C15",
+        "baggage": "2",
+        "delay": null,
+        "scheduled": "2023-12-24T11:04:00+00:00",
+        "estimated": "2023-12-24T11:04:00+00:00",
+        "actual": "2023-12-24T10:41:00+00:00",
+        "estimated_runway": "2023-12-24T10:41:00+00:00",
+        "actual_runway": "2023-12-24T10:41:00+00:00"
+      },
+      "airline": {
+        "name": "TAP Air Portugal",
+        "iata": "TP",
+        "icao": "TAP"
+      },
+      "flight": {
+        "number": "4472",
+        "iata": "TP4472",
+        "icao": "TAP4472",
+        "codeshared": {
+          "airline_name": "jetblue airways",
+          "airline_iata": "b6",
+          "airline_icao": "jbu",
+          "flight_number": "552",
+          "flight_iata": "b6552",
+          "flight_icao": "jbu552"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Orlando International",
+        "timezone": "America/New_York",
+        "iata": "MCO",
+        "icao": "KMCO",
+        "terminal": "C",
+        "gate": "244",
+        "delay": 12,
+        "scheduled": "2023-12-24T08:00:00+00:00",
+        "estimated": "2023-12-24T08:00:00+00:00",
+        "actual": "2023-12-24T08:11:00+00:00",
+        "estimated_runway": "2023-12-24T08:11:00+00:00",
+        "actual_runway": "2023-12-24T08:11:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C15",
+        "baggage": "2",
+        "delay": null,
+        "scheduled": "2023-12-24T11:04:00+00:00",
+        "estimated": "2023-12-24T11:04:00+00:00",
+        "actual": "2023-12-24T10:41:00+00:00",
+        "estimated_runway": "2023-12-24T10:41:00+00:00",
+        "actual_runway": "2023-12-24T10:41:00+00:00"
+      },
+      "airline": {
+        "name": "Qatar Airways",
+        "iata": "QR",
+        "icao": "QTR"
+      },
+      "flight": {
+        "number": "4109",
+        "iata": "QR4109",
+        "icao": "QTR4109",
+        "codeshared": {
+          "airline_name": "jetblue airways",
+          "airline_iata": "b6",
+          "airline_icao": "jbu",
+          "flight_number": "552",
+          "flight_iata": "b6552",
+          "flight_icao": "jbu552"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Orlando International",
+        "timezone": "America/New_York",
+        "iata": "MCO",
+        "icao": "KMCO",
+        "terminal": "C",
+        "gate": "244",
+        "delay": 12,
+        "scheduled": "2023-12-24T08:00:00+00:00",
+        "estimated": "2023-12-24T08:00:00+00:00",
+        "actual": "2023-12-24T08:11:00+00:00",
+        "estimated_runway": "2023-12-24T08:11:00+00:00",
+        "actual_runway": "2023-12-24T08:11:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C15",
+        "baggage": "2",
+        "delay": null,
+        "scheduled": "2023-12-24T11:04:00+00:00",
+        "estimated": "2023-12-24T11:04:00+00:00",
+        "actual": "2023-12-24T10:41:00+00:00",
+        "estimated_runway": "2023-12-24T10:41:00+00:00",
+        "actual_runway": "2023-12-24T10:41:00+00:00"
+      },
+      "airline": {
+        "name": "Hawaiian Airlines",
+        "iata": "HA",
+        "icao": "HAL"
+      },
+      "flight": {
+        "number": "2124",
+        "iata": "HA2124",
+        "icao": "HAL2124",
+        "codeshared": {
+          "airline_name": "jetblue airways",
+          "airline_iata": "b6",
+          "airline_icao": "jbu",
+          "flight_number": "552",
+          "flight_iata": "b6552",
+          "flight_icao": "jbu552"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "George Bush Intercontinental",
+        "timezone": "America/Chicago",
+        "iata": "IAH",
+        "icao": "KIAH",
+        "terminal": "C",
+        "gate": "2",
+        "delay": 15,
+        "scheduled": "2023-12-24T10:30:00+00:00",
+        "estimated": "2023-12-24T10:30:00+00:00",
+        "actual": "2023-12-24T10:44:00+00:00",
+        "estimated_runway": "2023-12-24T10:44:00+00:00",
+        "actual_runway": "2023-12-24T10:44:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "B",
+        "gate": "B29",
+        "baggage": "6",
+        "delay": null,
+        "scheduled": "2023-12-24T15:13:00+00:00",
+        "estimated": "2023-12-24T15:13:00+00:00",
+        "actual": "2023-12-24T14:59:00+00:00",
+        "estimated_runway": "2023-12-24T14:59:00+00:00",
+        "actual_runway": "2023-12-24T14:59:00+00:00"
+      },
+      "airline": {
+        "name": "Air New Zealand",
+        "iata": "NZ",
+        "icao": "ANZ"
+      },
+      "flight": {
+        "number": "6392",
+        "iata": "NZ6392",
+        "icao": "ANZ6392",
+        "codeshared": {
+          "airline_name": "united airlines",
+          "airline_iata": "ua",
+          "airline_icao": "ual",
+          "flight_number": "1714",
+          "flight_iata": "ua1714",
+          "flight_icao": "ual1714"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Southwest Florida International",
+        "timezone": "America/New_York",
+        "iata": "RSW",
+        "icao": "KRSW",
+        "terminal": null,
+        "gate": "D2",
+        "delay": 5,
+        "scheduled": "2023-12-24T17:25:00+00:00",
+        "estimated": "2023-12-24T17:25:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "B",
+        "gate": "B38",
+        "baggage": "10",
+        "delay": null,
+        "scheduled": "2023-12-24T20:42:00+00:00",
+        "estimated": "2023-12-24T20:42:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Spirit Airlines",
+        "iata": "NK",
+        "icao": "NKS"
+      },
+      "flight": {
+        "number": "1173",
+        "iata": "NK1173",
+        "icao": "NKS1173",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Palm Beach International Airport",
+        "timezone": "America/New_York",
+        "iata": "PBI",
+        "icao": "KPBI",
+        "terminal": null,
+        "gate": "C12",
+        "delay": null,
+        "scheduled": "2023-12-24T06:50:00+00:00",
+        "estimated": "2023-12-24T06:50:00+00:00",
+        "actual": "2023-12-24T06:47:00+00:00",
+        "estimated_runway": "2023-12-24T06:47:00+00:00",
+        "actual_runway": "2023-12-24T06:47:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C11",
+        "baggage": "2",
+        "delay": null,
+        "scheduled": "2023-12-24T09:58:00+00:00",
+        "estimated": "2023-12-24T09:58:00+00:00",
+        "actual": "2023-12-24T09:22:00+00:00",
+        "estimated_runway": "2023-12-24T09:22:00+00:00",
+        "actual_runway": "2023-12-24T09:22:00+00:00"
+      },
+      "airline": {
+        "name": "Jet Linx Aviation",
+        "iata": "JL",
+        "icao": "JTL"
+      },
+      "flight": {
+        "number": "5877",
+        "iata": "JL5877",
+        "icao": "JTL5877",
+        "codeshared": {
+          "airline_name": "jetblue airways",
+          "airline_iata": "b6",
+          "airline_icao": "jbu",
+          "flight_number": "222",
+          "flight_iata": "b6222",
+          "flight_icao": "jbu222"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Palm Beach International Airport",
+        "timezone": "America/New_York",
+        "iata": "PBI",
+        "icao": "KPBI",
+        "terminal": null,
+        "gate": "C12",
+        "delay": null,
+        "scheduled": "2023-12-24T06:50:00+00:00",
+        "estimated": "2023-12-24T06:50:00+00:00",
+        "actual": "2023-12-24T06:47:00+00:00",
+        "estimated_runway": "2023-12-24T06:47:00+00:00",
+        "actual_runway": "2023-12-24T06:47:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C11",
+        "baggage": "2",
+        "delay": null,
+        "scheduled": "2023-12-24T09:58:00+00:00",
+        "estimated": "2023-12-24T09:58:00+00:00",
+        "actual": "2023-12-24T09:22:00+00:00",
+        "estimated_runway": "2023-12-24T09:22:00+00:00",
+        "actual_runway": "2023-12-24T09:22:00+00:00"
+      },
+      "airline": {
+        "name": "Hawaiian Airlines",
+        "iata": "HA",
+        "icao": "HAL"
+      },
+      "flight": {
+        "number": "2454",
+        "iata": "HA2454",
+        "icao": "HAL2454",
+        "codeshared": {
+          "airline_name": "jetblue airways",
+          "airline_iata": "b6",
+          "airline_icao": "jbu",
+          "flight_number": "222",
+          "flight_iata": "b6222",
+          "flight_icao": "jbu222"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": null,
+        "gate": "A15",
+        "delay": 11,
+        "scheduled": "2023-12-24T07:05:00+00:00",
+        "estimated": "2023-12-24T07:05:00+00:00",
+        "actual": "2023-12-24T07:15:00+00:00",
+        "estimated_runway": "2023-12-24T07:15:00+00:00",
+        "actual_runway": "2023-12-24T07:15:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C21",
+        "baggage": "4",
+        "delay": null,
+        "scheduled": "2023-12-24T10:06:00+00:00",
+        "estimated": "2023-12-24T10:06:00+00:00",
+        "actual": "2023-12-24T09:57:00+00:00",
+        "estimated_runway": "2023-12-24T09:57:00+00:00",
+        "actual_runway": "2023-12-24T09:57:00+00:00"
+      },
+      "airline": {
+        "name": "Jet Linx Aviation",
+        "iata": "JL",
+        "icao": "JTL"
+      },
+      "flight": {
+        "number": "5885",
+        "iata": "JL5885",
+        "icao": "JTL5885",
+        "codeshared": {
+          "airline_name": "jetblue airways",
+          "airline_iata": "b6",
+          "airline_icao": "jbu",
+          "flight_number": "2992",
+          "flight_iata": "b62992",
+          "flight_icao": "jbu2992"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": null,
+        "gate": "A15",
+        "delay": 11,
+        "scheduled": "2023-12-24T07:05:00+00:00",
+        "estimated": "2023-12-24T07:05:00+00:00",
+        "actual": "2023-12-24T07:15:00+00:00",
+        "estimated_runway": "2023-12-24T07:15:00+00:00",
+        "actual_runway": "2023-12-24T07:15:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C21",
+        "baggage": "4",
+        "delay": null,
+        "scheduled": "2023-12-24T10:06:00+00:00",
+        "estimated": "2023-12-24T10:06:00+00:00",
+        "actual": "2023-12-24T09:57:00+00:00",
+        "estimated_runway": "2023-12-24T09:57:00+00:00",
+        "actual_runway": "2023-12-24T09:57:00+00:00"
+      },
+      "airline": {
+        "name": "Hawaiian Airlines",
+        "iata": "HA",
+        "icao": "HAL"
+      },
+      "flight": {
+        "number": "2484",
+        "iata": "HA2484",
+        "icao": "HAL2484",
+        "codeshared": {
+          "airline_name": "jetblue airways",
+          "airline_iata": "b6",
+          "airline_icao": "jbu",
+          "flight_number": "2992",
+          "flight_iata": "b62992",
+          "flight_icao": "jbu2992"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": null,
+        "gate": "E69",
+        "delay": 8,
+        "scheduled": "2023-12-24T07:00:00+00:00",
+        "estimated": "2023-12-24T07:00:00+00:00",
+        "actual": "2023-12-24T07:07:00+00:00",
+        "estimated_runway": "2023-12-24T07:07:00+00:00",
+        "actual_runway": "2023-12-24T07:07:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "A",
+        "gate": "A20",
+        "baggage": "3",
+        "delay": null,
+        "scheduled": "2023-12-24T10:03:00+00:00",
+        "estimated": "2023-12-24T10:03:00+00:00",
+        "actual": "2023-12-24T09:40:00+00:00",
+        "estimated_runway": "2023-12-24T09:40:00+00:00",
+        "actual_runway": "2023-12-24T09:40:00+00:00"
+      },
+      "airline": {
+        "name": "Delta Air Lines",
+        "iata": "DL",
+        "icao": "DAL"
+      },
+      "flight": {
+        "number": "1430",
+        "iata": "DL1430",
+        "icao": "DAL1430",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N3740C",
+        "iata": "B738",
+        "icao": "B738",
+        "icao24": "A44502"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": null,
+        "gate": "E69",
+        "delay": 8,
+        "scheduled": "2023-12-24T07:00:00+00:00",
+        "estimated": "2023-12-24T07:00:00+00:00",
+        "actual": "2023-12-24T07:07:00+00:00",
+        "estimated_runway": "2023-12-24T07:07:00+00:00",
+        "actual_runway": "2023-12-24T07:07:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "A",
+        "gate": "A20",
+        "baggage": "3",
+        "delay": null,
+        "scheduled": "2023-12-24T10:03:00+00:00",
+        "estimated": "2023-12-24T10:03:00+00:00",
+        "actual": "2023-12-24T09:40:00+00:00",
+        "estimated_runway": "2023-12-24T09:40:00+00:00",
+        "actual_runway": "2023-12-24T09:40:00+00:00"
+      },
+      "airline": {
+        "name": "Virgin Atlantic",
+        "iata": "VS",
+        "icao": "VIR"
+      },
+      "flight": {
+        "number": "4346",
+        "iata": "VS4346",
+        "icao": "VIR4346",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "1430",
+          "flight_iata": "dl1430",
+          "flight_icao": "dal1430"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": null,
+        "gate": "E69",
+        "delay": 8,
+        "scheduled": "2023-12-24T07:00:00+00:00",
+        "estimated": "2023-12-24T07:00:00+00:00",
+        "actual": "2023-12-24T07:07:00+00:00",
+        "estimated_runway": "2023-12-24T07:07:00+00:00",
+        "actual_runway": "2023-12-24T07:07:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "A",
+        "gate": "A20",
+        "baggage": "3",
+        "delay": null,
+        "scheduled": "2023-12-24T10:03:00+00:00",
+        "estimated": "2023-12-24T10:03:00+00:00",
+        "actual": "2023-12-24T09:40:00+00:00",
+        "estimated_runway": "2023-12-24T09:40:00+00:00",
+        "actual_runway": "2023-12-24T09:40:00+00:00"
+      },
+      "airline": {
+        "name": "Korean Air",
+        "iata": "KE",
+        "icao": "KAL"
+      },
+      "flight": {
+        "number": "3905",
+        "iata": "KE3905",
+        "icao": "KAL3905",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "1430",
+          "flight_iata": "dl1430",
+          "flight_icao": "dal1430"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Baltimore/Washington International Thurgood Marshall",
+        "timezone": "America/New_York",
+        "iata": "BWI",
+        "icao": "KBWI",
+        "terminal": null,
+        "gate": "B13",
+        "delay": 8,
+        "scheduled": "2023-12-24T07:05:00+00:00",
+        "estimated": "2023-12-24T07:05:00+00:00",
+        "actual": "2023-12-24T07:12:00+00:00",
+        "estimated_runway": "2023-12-24T07:12:00+00:00",
+        "actual_runway": "2023-12-24T07:12:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "B",
+        "gate": "B32",
+        "baggage": "8",
+        "delay": null,
+        "scheduled": "2023-12-24T08:30:00+00:00",
+        "estimated": "2023-12-24T08:30:00+00:00",
+        "actual": "2023-12-24T08:09:00+00:00",
+        "estimated_runway": "2023-12-24T08:09:00+00:00",
+        "actual_runway": "2023-12-24T08:09:00+00:00"
+      },
+      "airline": {
+        "name": "Southwest Airlines",
+        "iata": "WN",
+        "icao": "SWA"
+      },
+      "flight": {
+        "number": "481",
+        "iata": "WN481",
+        "icao": "SWA481",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Dallas/Fort Worth International",
+        "timezone": "America/Chicago",
+        "iata": "DFW",
+        "icao": "KDFW",
+        "terminal": "C",
+        "gate": "C8",
+        "delay": null,
+        "scheduled": "2023-12-24T15:45:00+00:00",
+        "estimated": "2023-12-24T15:45:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "B",
+        "gate": "B20",
+        "baggage": "1",
+        "delay": null,
+        "scheduled": "2023-12-24T20:13:00+00:00",
+        "estimated": "2023-12-24T20:13:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "American Airlines",
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "flight": {
+        "number": "2306",
+        "iata": "AA2306",
+        "icao": "AAL2306",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Syracuse Hancock International Airport",
+        "timezone": "America/New_York",
+        "iata": "SYR",
+        "icao": "KSYR",
+        "terminal": "A",
+        "gate": "8",
+        "delay": 24,
+        "scheduled": "2023-12-24T13:27:00+00:00",
+        "estimated": "2023-12-24T13:27:00+00:00",
+        "actual": "2023-12-24T13:26:00+00:00",
+        "estimated_runway": "2023-12-24T13:26:00+00:00",
+        "actual_runway": "2023-12-24T13:26:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "B",
+        "gate": "B16",
+        "baggage": "3",
+        "delay": null,
+        "scheduled": "2023-12-24T14:46:00+00:00",
+        "estimated": "2023-12-24T14:46:00+00:00",
+        "actual": "2023-12-24T14:15:00+00:00",
+        "estimated_runway": "2023-12-24T14:15:00+00:00",
+        "actual_runway": "2023-12-24T14:15:00+00:00"
+      },
+      "airline": {
+        "name": "American Airlines",
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "flight": {
+        "number": "5719",
+        "iata": "AA5719",
+        "icao": "AAL5719",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Fort Lauderdale\u2013Hollywood International",
+        "timezone": "America/New_York",
+        "iata": "FLL",
+        "icao": "KFLL",
+        "terminal": "3",
+        "gate": "F10",
+        "delay": 48,
+        "scheduled": "2023-12-24T09:37:00+00:00",
+        "estimated": "2023-12-24T09:37:00+00:00",
+        "actual": "2023-12-24T10:51:00+00:00",
+        "estimated_runway": "2023-12-24T10:51:00+00:00",
+        "actual_runway": "2023-12-24T10:51:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C14",
+        "baggage": "6",
+        "delay": 41,
+        "scheduled": "2023-12-24T12:51:00+00:00",
+        "estimated": "2023-12-24T12:51:00+00:00",
+        "actual": "2023-12-24T13:32:00+00:00",
+        "estimated_runway": "2023-12-24T13:32:00+00:00",
+        "actual_runway": "2023-12-24T13:32:00+00:00"
+      },
+      "airline": {
+        "name": "Icelandair",
+        "iata": "FI",
+        "icao": "ICE"
+      },
+      "flight": {
+        "number": "7932",
+        "iata": "FI7932",
+        "icao": "ICE7932",
+        "codeshared": {
+          "airline_name": "jetblue airways",
+          "airline_iata": "b6",
+          "airline_icao": "jbu",
+          "flight_number": "70",
+          "flight_iata": "b670",
+          "flight_icao": "jbu70"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Charles De Gaulle",
+        "timezone": "Europe/Paris",
+        "iata": "CDG",
+        "icao": "LFPG",
+        "terminal": "2E",
+        "gate": "M46",
+        "delay": 46,
+        "scheduled": "2023-12-24T11:45:00+00:00",
+        "estimated": "2023-12-24T11:45:00+00:00",
+        "actual": "2023-12-24T12:31:00+00:00",
+        "estimated_runway": "2023-12-24T12:31:00+00:00",
+        "actual_runway": "2023-12-24T12:31:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "E",
+        "gate": "E13",
+        "baggage": null,
+        "delay": 1,
+        "scheduled": "2023-12-24T14:00:00+00:00",
+        "estimated": "2023-12-24T14:00:00+00:00",
+        "actual": "2023-12-24T14:00:00+00:00",
+        "estimated_runway": "2023-12-24T14:00:00+00:00",
+        "actual_runway": "2023-12-24T14:00:00+00:00"
+      },
+      "airline": {
+        "name": "Air France",
+        "iata": "AF",
+        "icao": "AFR"
+      },
+      "flight": {
+        "number": "3616",
+        "iata": "AF3616",
+        "icao": "AFR3616",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "225",
+          "flight_iata": "dl225",
+          "flight_icao": "dal225"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Midway",
+        "timezone": "America/Chicago",
+        "iata": "MDW",
+        "icao": "KMDW",
+        "terminal": null,
+        "gate": "B22",
+        "delay": 3,
+        "scheduled": "2023-12-24T18:55:00+00:00",
+        "estimated": "2023-12-24T18:55:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "B",
+        "gate": "B33",
+        "baggage": "8",
+        "delay": null,
+        "scheduled": "2023-12-24T22:00:00+00:00",
+        "estimated": "2023-12-24T22:00:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Southwest Airlines",
+        "iata": "WN",
+        "icao": "SWA"
+      },
+      "flight": {
+        "number": "4500",
+        "iata": "WN4500",
+        "icao": "SWA4500",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Southwest Florida International",
+        "timezone": "America/New_York",
+        "iata": "RSW",
+        "icao": "KRSW",
+        "terminal": null,
+        "gate": "D8",
+        "delay": null,
+        "scheduled": "2023-12-24T07:00:00+00:00",
+        "estimated": "2023-12-24T07:00:00+00:00",
+        "actual": "2023-12-24T06:52:00+00:00",
+        "estimated_runway": "2023-12-24T06:52:00+00:00",
+        "actual_runway": "2023-12-24T06:52:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C18",
+        "baggage": "4",
+        "delay": null,
+        "scheduled": "2023-12-24T10:08:00+00:00",
+        "estimated": "2023-12-24T10:08:00+00:00",
+        "actual": "2023-12-24T09:33:00+00:00",
+        "estimated_runway": "2023-12-24T09:33:00+00:00",
+        "actual_runway": "2023-12-24T09:33:00+00:00"
+      },
+      "airline": {
+        "name": "Jet Linx Aviation",
+        "iata": "JL",
+        "icao": "JTL"
+      },
+      "flight": {
+        "number": "5881",
+        "iata": "JL5881",
+        "icao": "JTL5881",
+        "codeshared": {
+          "airline_name": "jetblue airways",
+          "airline_iata": "b6",
+          "airline_icao": "jbu",
+          "flight_number": "266",
+          "flight_iata": "b6266",
+          "flight_icao": "jbu266"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Southwest Florida International",
+        "timezone": "America/New_York",
+        "iata": "RSW",
+        "icao": "KRSW",
+        "terminal": null,
+        "gate": "D8",
+        "delay": null,
+        "scheduled": "2023-12-24T07:00:00+00:00",
+        "estimated": "2023-12-24T07:00:00+00:00",
+        "actual": "2023-12-24T06:52:00+00:00",
+        "estimated_runway": "2023-12-24T06:52:00+00:00",
+        "actual_runway": "2023-12-24T06:52:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C18",
+        "baggage": "4",
+        "delay": null,
+        "scheduled": "2023-12-24T10:08:00+00:00",
+        "estimated": "2023-12-24T10:08:00+00:00",
+        "actual": "2023-12-24T09:33:00+00:00",
+        "estimated_runway": "2023-12-24T09:33:00+00:00",
+        "actual_runway": "2023-12-24T09:33:00+00:00"
+      },
+      "airline": {
+        "name": "Qatar Airways",
+        "iata": "QR",
+        "icao": "QTR"
+      },
+      "flight": {
+        "number": "4120",
+        "iata": "QR4120",
+        "icao": "QTR4120",
+        "codeshared": {
+          "airline_name": "jetblue airways",
+          "airline_iata": "b6",
+          "airline_icao": "jbu",
+          "flight_number": "266",
+          "flight_iata": "b6266",
+          "flight_icao": "jbu266"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Fort Lauderdale\u2013Hollywood International",
+        "timezone": "America/New_York",
+        "iata": "FLL",
+        "icao": "KFLL",
+        "terminal": "2",
+        "gate": "D1",
+        "delay": 17,
+        "scheduled": "2023-12-24T07:05:00+00:00",
+        "estimated": "2023-12-24T07:05:00+00:00",
+        "actual": "2023-12-24T07:21:00+00:00",
+        "estimated_runway": "2023-12-24T07:21:00+00:00",
+        "actual_runway": "2023-12-24T07:21:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "A",
+        "gate": "A18",
+        "baggage": "4",
+        "delay": null,
+        "scheduled": "2023-12-24T10:23:00+00:00",
+        "estimated": "2023-12-24T10:23:00+00:00",
+        "actual": "2023-12-24T10:09:00+00:00",
+        "estimated_runway": "2023-12-24T10:09:00+00:00",
+        "actual_runway": "2023-12-24T10:09:00+00:00"
+      },
+      "airline": {
+        "name": "Virgin Atlantic",
+        "iata": "VS",
+        "icao": "VIR"
+      },
+      "flight": {
+        "number": "3274",
+        "iata": "VS3274",
+        "icao": "VIR3274",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "1095",
+          "flight_iata": "dl1095",
+          "flight_icao": "dal1095"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Fort Lauderdale\u2013Hollywood International",
+        "timezone": "America/New_York",
+        "iata": "FLL",
+        "icao": "KFLL",
+        "terminal": "2",
+        "gate": "D1",
+        "delay": 17,
+        "scheduled": "2023-12-24T07:05:00+00:00",
+        "estimated": "2023-12-24T07:05:00+00:00",
+        "actual": "2023-12-24T07:21:00+00:00",
+        "estimated_runway": "2023-12-24T07:21:00+00:00",
+        "actual_runway": "2023-12-24T07:21:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "A",
+        "gate": "A18",
+        "baggage": "4",
+        "delay": null,
+        "scheduled": "2023-12-24T10:23:00+00:00",
+        "estimated": "2023-12-24T10:23:00+00:00",
+        "actual": "2023-12-24T10:09:00+00:00",
+        "estimated_runway": "2023-12-24T10:09:00+00:00",
+        "actual_runway": "2023-12-24T10:09:00+00:00"
+      },
+      "airline": {
+        "name": "Korean Air",
+        "iata": "KE",
+        "icao": "KAL"
+      },
+      "flight": {
+        "number": "3986",
+        "iata": "KE3986",
+        "icao": "KAL3986",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "1095",
+          "flight_iata": "dl1095",
+          "flight_icao": "dal1095"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Fort Lauderdale\u2013Hollywood International",
+        "timezone": "America/New_York",
+        "iata": "FLL",
+        "icao": "KFLL",
+        "terminal": "2",
+        "gate": "D1",
+        "delay": 17,
+        "scheduled": "2023-12-24T07:05:00+00:00",
+        "estimated": "2023-12-24T07:05:00+00:00",
+        "actual": "2023-12-24T07:21:00+00:00",
+        "estimated_runway": "2023-12-24T07:21:00+00:00",
+        "actual_runway": "2023-12-24T07:21:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "A",
+        "gate": "A18",
+        "baggage": "4",
+        "delay": null,
+        "scheduled": "2023-12-24T10:23:00+00:00",
+        "estimated": "2023-12-24T10:23:00+00:00",
+        "actual": "2023-12-24T10:09:00+00:00",
+        "estimated_runway": "2023-12-24T10:09:00+00:00",
+        "actual_runway": "2023-12-24T10:09:00+00:00"
+      },
+      "airline": {
+        "name": "Delta Air Lines",
+        "iata": "DL",
+        "icao": "DAL"
+      },
+      "flight": {
+        "number": "1095",
+        "iata": "DL1095",
+        "icao": "DAL1095",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N337DN",
+        "iata": "A321",
+        "icao": "A321",
+        "icao24": "A3B028"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": null,
+        "gate": "A12",
+        "delay": 16,
+        "scheduled": "2023-12-24T16:30:00+00:00",
+        "estimated": "2023-12-24T16:30:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C30",
+        "baggage": "7",
+        "delay": null,
+        "scheduled": "2023-12-24T19:38:00+00:00",
+        "estimated": "2023-12-24T19:38:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "TAP Air Portugal",
+        "iata": "TP",
+        "icao": "TAP"
+      },
+      "flight": {
+        "number": "4404",
+        "iata": "TP4404",
+        "icao": "TAP4404",
+        "codeshared": {
+          "airline_name": "jetblue airways",
+          "airline_iata": "b6",
+          "airline_icao": "jbu",
+          "flight_number": "692",
+          "flight_iata": "b6692",
+          "flight_icao": "jbu692"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Istanbul Airport",
+        "timezone": "Europe/Istanbul",
+        "iata": "IST",
+        "icao": "LTFM",
+        "terminal": null,
+        "gate": "D11",
+        "delay": 44,
+        "scheduled": "2023-12-24T15:50:00+00:00",
+        "estimated": "2023-12-24T15:50:00+00:00",
+        "actual": "2023-12-24T16:33:00+00:00",
+        "estimated_runway": "2023-12-24T16:33:00+00:00",
+        "actual_runway": "2023-12-24T16:33:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "E",
+        "gate": null,
+        "baggage": null,
+        "delay": 26,
+        "scheduled": "2023-12-24T18:25:00+00:00",
+        "estimated": "2023-12-24T18:25:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Thai Airways International",
+        "iata": "TG",
+        "icao": "THA"
+      },
+      "flight": {
+        "number": "9146",
+        "iata": "TG9146",
+        "icao": "THA9146",
+        "codeshared": {
+          "airline_name": "turkish airlines",
+          "airline_iata": "tk",
+          "airline_icao": "thy",
+          "flight_number": "81",
+          "flight_iata": "tk81",
+          "flight_icao": "thy81"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Dublin International",
+        "timezone": "Europe/Dublin",
+        "iata": "DUB",
+        "icao": "EIDW",
+        "terminal": "2",
+        "gate": "405",
+        "delay": 19,
+        "scheduled": "2023-12-24T11:30:00+00:00",
+        "estimated": "2023-12-24T11:30:00+00:00",
+        "actual": "2023-12-24T11:48:00+00:00",
+        "estimated_runway": "2023-12-24T11:48:00+00:00",
+        "actual_runway": "2023-12-24T11:48:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": null,
+        "baggage": null,
+        "delay": null,
+        "scheduled": "2023-12-24T13:45:00+00:00",
+        "estimated": "2023-12-24T13:45:00+00:00",
+        "actual": "2023-12-24T13:24:00+00:00",
+        "estimated_runway": "2023-12-24T13:24:00+00:00",
+        "actual_runway": "2023-12-24T13:24:00+00:00"
+      },
+      "airline": {
+        "name": "Aer Lingus",
+        "iata": "EI",
+        "icao": "EIN"
+      },
+      "flight": {
+        "number": "133",
+        "iata": "EI133",
+        "icao": "EIN133",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Dublin International",
+        "timezone": "Europe/Dublin",
+        "iata": "DUB",
+        "icao": "EIDW",
+        "terminal": "2",
+        "gate": "405",
+        "delay": 19,
+        "scheduled": "2023-12-24T11:30:00+00:00",
+        "estimated": "2023-12-24T11:30:00+00:00",
+        "actual": "2023-12-24T11:48:00+00:00",
+        "estimated_runway": "2023-12-24T11:48:00+00:00",
+        "actual_runway": "2023-12-24T11:48:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": null,
+        "baggage": null,
+        "delay": null,
+        "scheduled": "2023-12-24T13:45:00+00:00",
+        "estimated": "2023-12-24T13:45:00+00:00",
+        "actual": "2023-12-24T13:24:00+00:00",
+        "estimated_runway": "2023-12-24T13:24:00+00:00",
+        "actual_runway": "2023-12-24T13:24:00+00:00"
+      },
+      "airline": {
+        "name": "JetBlue Airways",
+        "iata": "B6",
+        "icao": "JBU"
+      },
+      "flight": {
+        "number": "6833",
+        "iata": "B66833",
+        "icao": "JBU6833",
+        "codeshared": {
+          "airline_name": "aer lingus",
+          "airline_iata": "ei",
+          "airline_icao": "ein",
+          "flight_number": "133",
+          "flight_iata": "ei133",
+          "flight_icao": "ein133"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Dublin International",
+        "timezone": "Europe/Dublin",
+        "iata": "DUB",
+        "icao": "EIDW",
+        "terminal": "2",
+        "gate": "405",
+        "delay": 19,
+        "scheduled": "2023-12-24T11:30:00+00:00",
+        "estimated": "2023-12-24T11:30:00+00:00",
+        "actual": "2023-12-24T11:48:00+00:00",
+        "estimated_runway": "2023-12-24T11:48:00+00:00",
+        "actual_runway": "2023-12-24T11:48:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": null,
+        "baggage": null,
+        "delay": null,
+        "scheduled": "2023-12-24T13:45:00+00:00",
+        "estimated": "2023-12-24T13:45:00+00:00",
+        "actual": "2023-12-24T13:24:00+00:00",
+        "estimated_runway": "2023-12-24T13:24:00+00:00",
+        "actual_runway": "2023-12-24T13:24:00+00:00"
+      },
+      "airline": {
+        "name": "British Airways",
+        "iata": "BA",
+        "icao": "BAW"
+      },
+      "flight": {
+        "number": "6139",
+        "iata": "BA6139",
+        "icao": "BAW6139",
+        "codeshared": {
+          "airline_name": "aer lingus",
+          "airline_iata": "ei",
+          "airline_icao": "ein",
+          "flight_number": "133",
+          "flight_iata": "ei133",
+          "flight_icao": "ein133"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Philadelphia International",
+        "timezone": "America/New_York",
+        "iata": "PHL",
+        "icao": "KPHL",
+        "terminal": "D",
+        "gate": "D10",
+        "delay": 3,
+        "scheduled": "2023-12-24T07:00:00+00:00",
+        "estimated": "2023-12-24T07:00:00+00:00",
+        "actual": "2023-12-24T07:03:00+00:00",
+        "estimated_runway": "2023-12-24T07:03:00+00:00",
+        "actual_runway": "2023-12-24T07:03:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "A",
+        "gate": "A5",
+        "baggage": "2",
+        "delay": null,
+        "scheduled": "2023-12-24T08:46:00+00:00",
+        "estimated": "2023-12-24T08:46:00+00:00",
+        "actual": "2023-12-24T07:58:00+00:00",
+        "estimated_runway": "2023-12-24T07:58:00+00:00",
+        "actual_runway": "2023-12-24T07:58:00+00:00"
+      },
+      "airline": {
+        "name": "Korean Air",
+        "iata": "KE",
+        "icao": "KAL"
+      },
+      "flight": {
+        "number": "3318",
+        "iata": "KE3318",
+        "icao": "KAL3318",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "5612",
+          "flight_iata": "dl5612",
+          "flight_icao": "dal5612"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Southwest Florida International",
+        "timezone": "America/New_York",
+        "iata": "RSW",
+        "icao": "KRSW",
+        "terminal": null,
+        "gate": "D8",
+        "delay": null,
+        "scheduled": "2023-12-24T07:00:00+00:00",
+        "estimated": "2023-12-24T07:00:00+00:00",
+        "actual": "2023-12-24T06:52:00+00:00",
+        "estimated_runway": "2023-12-24T06:52:00+00:00",
+        "actual_runway": "2023-12-24T06:52:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C18",
+        "baggage": "4",
+        "delay": null,
+        "scheduled": "2023-12-24T10:08:00+00:00",
+        "estimated": "2023-12-24T10:08:00+00:00",
+        "actual": "2023-12-24T09:33:00+00:00",
+        "estimated_runway": "2023-12-24T09:33:00+00:00",
+        "actual_runway": "2023-12-24T09:33:00+00:00"
+      },
+      "airline": {
+        "name": "Hawaiian Airlines",
+        "iata": "HA",
+        "icao": "HAL"
+      },
+      "flight": {
+        "number": "2488",
+        "iata": "HA2488",
+        "icao": "HAL2488",
+        "codeshared": {
+          "airline_name": "jetblue airways",
+          "airline_iata": "b6",
+          "airline_icao": "jbu",
+          "flight_number": "266",
+          "flight_iata": "b6266",
+          "flight_icao": "jbu266"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Orlando International",
+        "timezone": "America/New_York",
+        "iata": "MCO",
+        "icao": "KMCO",
+        "terminal": "C",
+        "gate": "237",
+        "delay": null,
+        "scheduled": "2023-12-24T19:58:00+00:00",
+        "estimated": "2023-12-24T19:58:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C23",
+        "baggage": "8",
+        "delay": null,
+        "scheduled": "2023-12-24T23:00:00+00:00",
+        "estimated": "2023-12-24T23:00:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Hawaiian Airlines",
+        "iata": "HA",
+        "icao": "HAL"
+      },
+      "flight": {
+        "number": "2154",
+        "iata": "HA2154",
+        "icao": "HAL2154",
+        "codeshared": {
+          "airline_name": "jetblue airways",
+          "airline_iata": "b6",
+          "airline_icao": "jbu",
+          "flight_number": "1152",
+          "flight_iata": "b61152",
+          "flight_icao": "jbu1152"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Ronald Reagan Washington National Airport",
+        "timezone": "America/New_York",
+        "iata": "DCA",
+        "icao": "KDCA",
+        "terminal": "2",
+        "gate": "C30",
+        "delay": 6,
+        "scheduled": "2023-12-24T13:30:00+00:00",
+        "estimated": "2023-12-24T13:30:00+00:00",
+        "actual": "2023-12-24T13:36:00+00:00",
+        "estimated_runway": "2023-12-24T13:36:00+00:00",
+        "actual_runway": "2023-12-24T13:36:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C10",
+        "baggage": "2",
+        "delay": null,
+        "scheduled": "2023-12-24T15:03:00+00:00",
+        "estimated": "2023-12-24T15:03:00+00:00",
+        "actual": "2023-12-24T14:34:00+00:00",
+        "estimated_runway": "2023-12-24T14:34:00+00:00",
+        "actual_runway": "2023-12-24T14:34:00+00:00"
+      },
+      "airline": {
+        "name": "JetBlue Airways",
+        "iata": "B6",
+        "icao": "JBU"
+      },
+      "flight": {
+        "number": "2454",
+        "iata": "B62454",
+        "icao": "JBU2454",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Gatwick",
+        "timezone": "Europe/London",
+        "iata": "LGW",
+        "icao": "EGKK",
+        "terminal": "N",
+        "gate": "562",
+        "delay": 10,
+        "scheduled": "2023-12-24T11:55:00+00:00",
+        "estimated": "2023-12-24T11:55:00+00:00",
+        "actual": "2023-12-24T12:04:00+00:00",
+        "estimated_runway": "2023-12-24T12:04:00+00:00",
+        "actual_runway": "2023-12-24T12:04:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "E",
+        "gate": "E1",
+        "baggage": null,
+        "delay": null,
+        "scheduled": "2023-12-24T15:12:00+00:00",
+        "estimated": "2023-12-24T15:12:00+00:00",
+        "actual": "2023-12-24T14:40:00+00:00",
+        "estimated_runway": "2023-12-24T14:40:00+00:00",
+        "actual_runway": "2023-12-24T14:40:00+00:00"
+      },
+      "airline": {
+        "name": "JetBlue Airways",
+        "iata": "B6",
+        "icao": "JBU"
+      },
+      "flight": {
+        "number": "1926",
+        "iata": "B61926",
+        "icao": "JBU1926",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N4076J",
+        "iata": "A21N",
+        "icao": "A21N",
+        "icao24": "A4C9D5"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Dublin International",
+        "timezone": "Europe/Dublin",
+        "iata": "DUB",
+        "icao": "EIDW",
+        "terminal": "2",
+        "gate": "426",
+        "delay": 28,
+        "scheduled": "2023-12-24T11:50:00+00:00",
+        "estimated": "2023-12-24T11:50:00+00:00",
+        "actual": "2023-12-24T12:18:00+00:00",
+        "estimated_runway": "2023-12-24T12:18:00+00:00",
+        "actual_runway": "2023-12-24T12:18:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "E",
+        "gate": "E14",
+        "baggage": "3",
+        "delay": 2,
+        "scheduled": "2023-12-24T14:00:00+00:00",
+        "estimated": "2023-12-24T14:00:00+00:00",
+        "actual": "2023-12-24T14:02:00+00:00",
+        "estimated_runway": "2023-12-24T14:02:00+00:00",
+        "actual_runway": "2023-12-24T14:02:00+00:00"
+      },
+      "airline": {
+        "name": "KLM",
+        "iata": "KL",
+        "icao": "KLM"
+      },
+      "flight": {
+        "number": "6092",
+        "iata": "KL6092",
+        "icao": "KLM6092",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "155",
+          "flight_iata": "dl155",
+          "flight_icao": "dal155"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Memphis International",
+        "timezone": "America/Chicago",
+        "iata": "MEM",
+        "icao": "KMEM",
+        "terminal": null,
+        "gate": null,
+        "delay": 30,
+        "scheduled": "2023-12-24T15:33:00+00:00",
+        "estimated": "2023-12-24T15:33:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": null,
+        "baggage": null,
+        "delay": null,
+        "scheduled": "2023-12-24T18:56:00+00:00",
+        "estimated": "2023-12-24T18:56:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "FedEx",
+        "iata": "FX",
+        "icao": "FDX"
+      },
+      "flight": {
+        "number": "733",
+        "iata": "FX733",
+        "icao": "FDX733",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Minneapolis - St. Paul International",
+        "timezone": "America/Chicago",
+        "iata": "MSP",
+        "icao": "KMSP",
+        "terminal": "2",
+        "gate": "H2",
+        "delay": 9,
+        "scheduled": "2023-12-24T05:15:00+00:00",
+        "estimated": "2023-12-24T05:15:00+00:00",
+        "actual": "2023-12-24T05:23:00+00:00",
+        "estimated_runway": "2023-12-24T05:23:00+00:00",
+        "actual_runway": "2023-12-24T05:23:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "E",
+        "gate": null,
+        "baggage": null,
+        "delay": null,
+        "scheduled": "2023-12-24T09:07:00+00:00",
+        "estimated": "2023-12-24T09:07:00+00:00",
+        "actual": "2023-12-24T08:44:00+00:00",
+        "estimated_runway": "2023-12-24T08:44:00+00:00",
+        "actual_runway": "2023-12-24T08:44:00+00:00"
+      },
+      "airline": {
+        "name": "Sun Country Airlines",
+        "iata": "SY",
+        "icao": "SCX"
+      },
+      "flight": {
+        "number": "249",
+        "iata": "SY249",
+        "icao": "SCX249",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Philadelphia International",
+        "timezone": "America/New_York",
+        "iata": "PHL",
+        "icao": "KPHL",
+        "terminal": "D",
+        "gate": "D10",
+        "delay": 3,
+        "scheduled": "2023-12-24T07:00:00+00:00",
+        "estimated": "2023-12-24T07:00:00+00:00",
+        "actual": "2023-12-24T07:03:00+00:00",
+        "estimated_runway": "2023-12-24T07:03:00+00:00",
+        "actual_runway": "2023-12-24T07:03:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "A",
+        "gate": "A5",
+        "baggage": "2",
+        "delay": null,
+        "scheduled": "2023-12-24T08:46:00+00:00",
+        "estimated": "2023-12-24T08:46:00+00:00",
+        "actual": "2023-12-24T07:58:00+00:00",
+        "estimated_runway": "2023-12-24T07:58:00+00:00",
+        "actual_runway": "2023-12-24T07:58:00+00:00"
+      },
+      "airline": {
+        "name": "Delta Air Lines",
+        "iata": "DL",
+        "icao": "DAL"
+      },
+      "flight": {
+        "number": "5612",
+        "iata": "DL5612",
+        "icao": "DAL5612",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Fort Lauderdale\u2013Hollywood International",
+        "timezone": "America/New_York",
+        "iata": "FLL",
+        "icao": "KFLL",
+        "terminal": "3",
+        "gate": "F1",
+        "delay": 40,
+        "scheduled": "2023-12-24T13:51:00+00:00",
+        "estimated": "2023-12-24T13:51:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C31",
+        "baggage": "7",
+        "delay": null,
+        "scheduled": "2023-12-24T17:11:00+00:00",
+        "estimated": "2023-12-24T17:11:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Hawaiian Airlines",
+        "iata": "HA",
+        "icao": "HAL"
+      },
+      "flight": {
+        "number": "2428",
+        "iata": "HA2428",
+        "icao": "HAL2428",
+        "codeshared": {
+          "airline_name": "jetblue airways",
+          "airline_iata": "b6",
+          "airline_icao": "jbu",
+          "flight_number": "2270",
+          "flight_iata": "b62270",
+          "flight_icao": "jbu2270"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Fort Lauderdale\u2013Hollywood International",
+        "timezone": "America/New_York",
+        "iata": "FLL",
+        "icao": "KFLL",
+        "terminal": "3",
+        "gate": "F1",
+        "delay": 40,
+        "scheduled": "2023-12-24T13:51:00+00:00",
+        "estimated": "2023-12-24T13:51:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C31",
+        "baggage": "7",
+        "delay": null,
+        "scheduled": "2023-12-24T17:11:00+00:00",
+        "estimated": "2023-12-24T17:11:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Icelandair",
+        "iata": "FI",
+        "icao": "ICE"
+      },
+      "flight": {
+        "number": "7930",
+        "iata": "FI7930",
+        "icao": "ICE7930",
+        "codeshared": {
+          "airline_name": "jetblue airways",
+          "airline_iata": "b6",
+          "airline_icao": "jbu",
+          "flight_number": "2270",
+          "flight_iata": "b62270",
+          "flight_icao": "jbu2270"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Hartsfield-jackson Atlanta International",
+        "timezone": "America/New_York",
+        "iata": "ATL",
+        "icao": "KATL",
+        "terminal": "S",
+        "gate": "A12",
+        "delay": 24,
+        "scheduled": "2023-12-24T09:57:00+00:00",
+        "estimated": "2023-12-24T09:57:00+00:00",
+        "actual": "2023-12-24T10:20:00+00:00",
+        "estimated_runway": "2023-12-24T10:20:00+00:00",
+        "actual_runway": "2023-12-24T10:20:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "A",
+        "gate": "A19",
+        "baggage": "3",
+        "delay": null,
+        "scheduled": "2023-12-24T12:35:00+00:00",
+        "estimated": "2023-12-24T12:35:00+00:00",
+        "actual": "2023-12-24T12:21:00+00:00",
+        "estimated_runway": "2023-12-24T12:21:00+00:00",
+        "actual_runway": "2023-12-24T12:21:00+00:00"
+      },
+      "airline": {
+        "name": "LATAM Airlines",
+        "iata": "LA",
+        "icao": "LAN"
+      },
+      "flight": {
+        "number": "6104",
+        "iata": "LA6104",
+        "icao": "LAN6104",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "855",
+          "flight_iata": "dl855",
+          "flight_icao": "dal855"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Philadelphia International",
+        "timezone": "America/New_York",
+        "iata": "PHL",
+        "icao": "KPHL",
+        "terminal": "C",
+        "gate": "C29",
+        "delay": null,
+        "scheduled": "2023-12-24T18:34:00+00:00",
+        "estimated": "2023-12-24T18:34:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "B",
+        "gate": "B7",
+        "baggage": "2",
+        "delay": null,
+        "scheduled": "2023-12-24T20:05:00+00:00",
+        "estimated": "2023-12-24T20:05:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Malaysia Airlines",
+        "iata": "MH",
+        "icao": "MAS"
+      },
+      "flight": {
+        "number": "9493",
+        "iata": "MH9493",
+        "icao": "MAS9493",
+        "codeshared": {
+          "airline_name": "american airlines",
+          "airline_iata": "aa",
+          "airline_icao": "aal",
+          "flight_number": "2623",
+          "flight_iata": "aa2623",
+          "flight_icao": "aal2623"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Bar Harbor",
+        "timezone": "America/New_York",
+        "iata": "BHB",
+        "icao": "KBHB",
+        "terminal": null,
+        "gate": null,
+        "delay": 10,
+        "scheduled": "2023-12-24T06:00:00+00:00",
+        "estimated": "2023-12-24T06:00:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C27",
+        "baggage": null,
+        "delay": null,
+        "scheduled": "2023-12-24T07:25:00+00:00",
+        "estimated": "2023-12-24T07:25:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Cape Air",
+        "iata": "9K",
+        "icao": "KAP"
+      },
+      "flight": {
+        "number": "1830",
+        "iata": "9K1830",
+        "icao": "KAP1830",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Knox County Regional",
+        "timezone": "America/New_York",
+        "iata": "RKD",
+        "icao": "KRKD",
+        "terminal": null,
+        "gate": null,
+        "delay": null,
+        "scheduled": "2023-12-24T15:55:00+00:00",
+        "estimated": "2023-12-24T15:55:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C27",
+        "baggage": null,
+        "delay": null,
+        "scheduled": "2023-12-24T17:15:00+00:00",
+        "estimated": "2023-12-24T17:15:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "JetBlue Airways",
+        "iata": "B6",
+        "icao": "JBU"
+      },
+      "flight": {
+        "number": "5165",
+        "iata": "B65165",
+        "icao": "JBU5165",
+        "codeshared": {
+          "airline_name": "cape air",
+          "airline_iata": "9k",
+          "airline_icao": "kap",
+          "flight_number": "1856",
+          "flight_iata": "9k1856",
+          "flight_icao": "kap1856"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "San Francisco International",
+        "timezone": "America/Los_Angeles",
+        "iata": "SFO",
+        "icao": "KSFO",
+        "terminal": "2",
+        "gate": "C7",
+        "delay": 13,
+        "scheduled": "2023-12-24T07:10:00+00:00",
+        "estimated": "2023-12-24T07:10:00+00:00",
+        "actual": "2023-12-24T07:23:00+00:00",
+        "estimated_runway": "2023-12-24T07:23:00+00:00",
+        "actual_runway": "2023-12-24T07:23:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "A",
+        "gate": "A13",
+        "baggage": "3",
+        "delay": null,
+        "scheduled": "2023-12-24T15:55:00+00:00",
+        "estimated": "2023-12-24T15:55:00+00:00",
+        "actual": "2023-12-24T15:30:00+00:00",
+        "estimated_runway": "2023-12-24T15:30:00+00:00",
+        "actual_runway": "2023-12-24T15:30:00+00:00"
+      },
+      "airline": {
+        "name": "LATAM Airlines",
+        "iata": "LA",
+        "icao": "LAN"
+      },
+      "flight": {
+        "number": "6260",
+        "iata": "LA6260",
+        "icao": "LAN6260",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "926",
+          "flight_iata": "dl926",
+          "flight_icao": "dal926"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Chicago O'hare International",
+        "timezone": "America/Chicago",
+        "iata": "ORD",
+        "icao": "KORD",
+        "terminal": "1",
+        "gate": "C9",
+        "delay": 28,
+        "scheduled": "2023-12-24T07:15:00+00:00",
+        "estimated": "2023-12-24T07:15:00+00:00",
+        "actual": "2023-12-24T07:42:00+00:00",
+        "estimated_runway": "2023-12-24T07:42:00+00:00",
+        "actual_runway": "2023-12-24T07:42:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "B",
+        "gate": "B29",
+        "baggage": "5",
+        "delay": 1,
+        "scheduled": "2023-12-24T10:35:00+00:00",
+        "estimated": "2023-12-24T10:35:00+00:00",
+        "actual": "2023-12-24T10:35:00+00:00",
+        "estimated_runway": "2023-12-24T10:35:00+00:00",
+        "actual_runway": "2023-12-24T10:35:00+00:00"
+      },
+      "airline": {
+        "name": "United Airlines",
+        "iata": "UA",
+        "icao": "UAL"
+      },
+      "flight": {
+        "number": "1803",
+        "iata": "UA1803",
+        "icao": "UAL1803",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N37427",
+        "iata": "B739",
+        "icao": "B739",
+        "icao24": "A44565"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": null,
+        "gate": "A16",
+        "delay": 2,
+        "scheduled": "2023-12-24T22:31:00+00:00",
+        "estimated": "2023-12-24T22:31:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "B",
+        "gate": null,
+        "baggage": "10",
+        "delay": null,
+        "scheduled": "2023-12-25T01:36:00+00:00",
+        "estimated": "2023-12-25T01:36:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Spirit Airlines",
+        "iata": "NK",
+        "icao": "NKS"
+      },
+      "flight": {
+        "number": "3583",
+        "iata": "NK3583",
+        "icao": "NKS3583",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Indianapolis International",
+        "timezone": "America/Indiana/Indianapolis",
+        "iata": "IND",
+        "icao": "KIND",
+        "terminal": null,
+        "gate": "A11",
+        "delay": 25,
+        "scheduled": "2023-12-24T07:00:00+00:00",
+        "estimated": "2023-12-24T07:00:00+00:00",
+        "actual": "2023-12-24T07:25:00+00:00",
+        "estimated_runway": "2023-12-24T07:25:00+00:00",
+        "actual_runway": "2023-12-24T07:25:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "A",
+        "gate": "A7",
+        "baggage": "2",
+        "delay": null,
+        "scheduled": "2023-12-24T09:23:00+00:00",
+        "estimated": "2023-12-24T09:23:00+00:00",
+        "actual": "2023-12-24T09:13:00+00:00",
+        "estimated_runway": "2023-12-24T09:13:00+00:00",
+        "actual_runway": "2023-12-24T09:13:00+00:00"
+      },
+      "airline": {
+        "name": "Delta Air Lines",
+        "iata": "DL",
+        "icao": "DAL"
+      },
+      "flight": {
+        "number": "5645",
+        "iata": "DL5645",
+        "icao": "DAL5645",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Hartsfield-jackson Atlanta International",
+        "timezone": "America/New_York",
+        "iata": "ATL",
+        "icao": "KATL",
+        "terminal": "S",
+        "gate": "T8",
+        "delay": null,
+        "scheduled": "2023-12-24T22:30:00+00:00",
+        "estimated": "2023-12-24T22:30:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "A",
+        "gate": "A18",
+        "baggage": "3",
+        "delay": null,
+        "scheduled": "2023-12-25T01:03:00+00:00",
+        "estimated": "2023-12-25T01:03:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Delta Air Lines",
+        "iata": "DL",
+        "icao": "DAL"
+      },
+      "flight": {
+        "number": "865",
+        "iata": "DL865",
+        "icao": "DAL865",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-12-24",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Harrisburg International",
+        "timezone": "America/New_York",
+        "iata": "MDT",
+        "icao": "KMDT",
+        "terminal": null,
+        "gate": "C1",
+        "delay": 7,
+        "scheduled": "2023-12-24T06:15:00+00:00",
+        "estimated": "2023-12-24T06:15:00+00:00",
+        "actual": "2023-12-24T06:22:00+00:00",
+        "estimated_runway": "2023-12-24T06:22:00+00:00",
+        "actual_runway": "2023-12-24T06:22:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "B",
+        "gate": "B17",
+        "baggage": "3",
+        "delay": null,
+        "scheduled": "2023-12-24T07:49:00+00:00",
+        "estimated": "2023-12-24T07:49:00+00:00",
+        "actual": "2023-12-24T07:20:00+00:00",
+        "estimated_runway": "2023-12-24T07:20:00+00:00",
+        "actual_runway": "2023-12-24T07:20:00+00:00"
+      },
+      "airline": {
+        "name": "American Airlines",
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "flight": {
+        "number": "5937",
+        "iata": "AA5937",
+        "icao": "AAL5937",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N658AE",
+        "iata": "E145",
+        "icao": "E145",
+        "icao24": "A8AA77"
+      },
+      "live": null
+    }
+  ]
+}

@@ -51,7 +51,7 @@ def handle_clients():
             break
 
 # Listen for clients
-ss.listen(3)
+ss.listen()
 
 def client_n(sss):
     sss.send(b'Please enter the client name: ')
@@ -61,8 +61,7 @@ def client_n(sss):
 # option a , b, c, d
 def option_C(sss):
     try:
-        while True :
-            
+        while True:
             sss.send(b"Options:\n"
                     b"a. All arrived flights\n"
                     b"b. All delayed flights\n"
@@ -79,49 +78,75 @@ def option_C(sss):
 
             if option.lower() == 'a':
                 for i in data['data']:
-                   if i["flight_status"] == 'landed':
-                    flight_code = i["flight"]["iata"]
-                    departure_airport = i["departure"]["airport"]
-                    arrival_time = i["arrival"]["estimated"]
-                    arrival_terminal = i["arrival"]["terminal"]
-                    arrival_gate = i["arrival"]["gate"]
-                    
-                    info += f"Flight IATA Code: {flight_code}, Departure Airport: {departure_airport}, Arrival Time: {arrival_time}, Arrival Terminal: {arrival_terminal}, Arrival Gate: {arrival_gate}\n"                    
-            sss.sendall(info.encode())
-
-            if option.lower() == 'b':
-                delayed_flights_exist = False
-                for i in data['data']:
-                    D = i['departure'] 
-                    if D["delay"] is not None:
+                    if i["flight_status"] == 'landed':
                         flight_code = i["flight"]["iata"]
-                        departure_airport = D["airport"]
-                        departure_time = D["estimated"]
+                        departure_airport = i["departure"]["airport"]
                         arrival_time = i["arrival"]["estimated"]
-                        departure_delay = D["delay"]
                         arrival_terminal = i["arrival"]["terminal"]
                         arrival_gate = i["arrival"]["gate"]
 
-                        info += f"Flight IATA Code: {flight_code}, Departure Airport: {departure_airport},Departure Time:{departure_time}, Departure Delay: {departure_delay}, Arrival Time: {arrival_time}, Arrival Terminal: {arrival_terminal}, Arrival Gate: {arrival_gate}\n"                    
+                        info += f"Flight IATA Code: {flight_code}, Departure Airport: {departure_airport}, Arrival Time: {arrival_time}, Arrival Terminal: {arrival_terminal}, Arrival Gate: {arrival_gate}\n"
+                sss.sendall(info.encode())
 
+            elif option.lower() == 'b':
+                delayed_flights_exist = False
+                for i in data['data']:
+                    D = i['arrival']
+                    if D["delay"] is not None:
+                        flight_code = i["flight"]["iata"]
+                        departure_airport = i["departure"]["airport"]
+                        departure_time = i["departure"]["estimated"]
+                        arrival_time = D["estimated"]
+                        departure_delay = D["delay"]
+                        arrival_terminal = D["terminal"]
+                        arrival_gate = D["gate"]
+
+                        info += f"Flight IATA Code: {flight_code}, Departure Airport: {departure_airport},Departure Time:{departure_time}, Departure Delay: {departure_delay}, Arrival Time: {arrival_time}, Arrival Terminal: {arrival_terminal}, Arrival Gate: {arrival_gate}\n"
 
                         delayed_flights_exist = True
 
-                    if not delayed_flights_exist:
-                        info = 'No delayed flights\n'
-                
+                if not delayed_flights_exist:
+                    info = 'No delayed flights\n'
+
                 sss.sendall(info.encode())
-                
-            if option.lower() == 'c':
 
+            elif option.lower() == 'c':
+                departure_ICAO = sss.recv(1024).decode('ascii')
+                departure_ICAO = departure_ICAO.upper()
+                for i in data['data']:
+                    if i["departure"]["icao"] == departure_ICAO:
+                        flight_code = i["flight"]["iata"]
+                        departure_airport = i["departure"]["airport"]
+                        departure_time = i["departure"]["estimated"]
+                        arrival_time = i["arrival"]["estimated"]
+                        departure_gate = i["departure"]["gate"]
+                        arrival_gate = i["arrival"]["gate"]
+                        flight_status = i["flight_status"]
+                        info += f"Flight IATA Code: {flight_code}, Departure Airport: {departure_airport},Departure Time:{departure_time}, arrival time: {arrival_time}, Arrival Time: {arrival_time}, Departure Gate: {departure_gate}, Arrival Gate: {arrival_gate} , Flight Status : {flight_status}\n"
+                sss.sendall(info.encode())
 
-
+            elif option.lower() == 'd':
+                Arrival_IATA = sss.recv(1024).decode('ascii')
+                Arrival_IATA = Arrival_IATA.upper()
+                for i in data['data']:
+                    if i["arrival"]["iata"] == Arrival_IATA:
+                        flight_code = i["flight"]["iata"]
+                        departure_airport = i["departure"]["airport"]
+                        departure_gate = i["departure"]["gate"]
+                        departure_terminal = i["departure"]["terminal"]
+                        arrival_airport = i["arrival"]["airport"]
+                        arrival_gate = i["arrival"]["gate"]
+                        arrival_terminal = i["arrival"]["terminal"]
+                        flight_status = i["flight_status"]
+                        departure_scheduled = i["departure"]["scheduled"]
+                        arrival_scheduled = i["arrival"]["scheduled"]
+                        info += f"Flight IATA Code: {flight_code}, Departure Airport: {departure_airport},Departure Gate: {departure_gate}, Departure Terminal: {departure_terminal}, Arrival Airport: {arrival_airport}, Arrival Terminal: {arrival_terminal}, Arrival Gate: {arrival_gate}, Flight Status : {flight_status}, Departure Scheduled: {departure_scheduled}, Arrival Scheduled: {arrival_scheduled}\n"
+                sss.sendall(info.encode())
 
     except Exception as e:
         print(f"Error handling client: {e}")
     finally:
         sss.close()
-
      
 
 # threading 

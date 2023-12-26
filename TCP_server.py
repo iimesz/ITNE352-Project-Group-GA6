@@ -4,9 +4,7 @@ import json
 import threading
 import sys
 
-
-
-# access code for API
+# access key for API
 access_key = 'a5a5423540790ed7ad4db33bf14d26e9'
 
 # name of arr_icao
@@ -35,24 +33,30 @@ port = 50000
 ss.bind((address, port))
 print('=' * 20 + '  The server has been started ' + '=' * 20)
 
+
 # Handle the client :
 def handle_clients():
     
     while True:
         
         sss, sockname = ss.accept()
-        print('Accepted request from', sockname[0], 'with port number', sockname[1])
-
-        t = threading.Thread(target=option_C, args=(sss,))
+        t1 = threading.Thread(target=client_n, args=(sss,))
+        t2 = threading.Thread(target=option_C, args=(sss,))
         my_threads.append(t)
-        t.start()
+        t1.start()
+        t2.start()
 
         if ss.fileno() == -1:
             print("Socket is closed.")
             break
 
 # Listen for clients
-ss.listen()
+ss.listen(3)
+
+def client_n(sss):
+    sss.send(b'Please enter the client name: ')
+    client_name = sss.recv(1024).decode('ascii')
+    print('Accepted request from', client_name)
 
 # option a , b, c, d
 def option_C(sss):
@@ -68,33 +72,50 @@ def option_C(sss):
 
             option = sss.recv(1).decode('ascii')
 
-            with open('GA6.json', 'r') as file:
-                data = json.load(file)
-            listt = ''
+            with open('GA6.json', 'r') as r:
+                data = json.load(r)
+
+            info = ''
 
             if option.lower() == 'a':
-                
-                for i in range(len(data['data'])):
-                    D = data['data'][i]['arrival']
-                    listt += '#{}: flight IATA code: {} \ndeparture airport name: {} \narrival time: {} \narrival terminal number: {} \narrival gate: {}'.format(
-                        i, D['icao'], D['airport'], D['scheduled'], D['terminal'], D['gate'])
-                    listt += '\n'
-                sss.sendall(listt.encode())
+                for i in data['data']:
+                   if i["flight_status"] == 'landed':
+                    flight_code = i["flight"]["iata"]
+                    departure_airport = i["departure"]["airport"]
+                    arrival_time = i["arrival"]["estimated"]
+                    arrival_terminal = i["arrival"]["terminal"]
+                    arrival_gate = i["arrival"]["gate"]
+                    
+                    info += f"Flight IATA Code: {flight_code}, Departure Airport: {departure_airport}, Arrival Time: {arrival_time}, Arrival Terminal: {arrival_terminal}, Arrival Gate: {arrival_gate}\n"                    
+            sss.sendall(info.encode())
 
             if option.lower() == 'b':
                 delayed_flights_exist = False
-                for i in range(len(data['data'])):
-                    D = data['data'][i]['departure']
-                    if D["delay"] != None:
-                        listt += '#{}: flight IATA code: {} \ndeparture airport name: {} \narrival time: {} \ndelay:  {} \narrival terminal number: {} \narrival gate: {}'.format(
-                            i, D['icao'], D['airport'], D['scheduled'], D["delay"], D['terminal'], D['gate'])
-                        listt += '\n'
+                for i in data['data']:
+                    D = i['departure'] 
+                    if D["delay"] is not None:
+                        flight_code = i["flight"]["iata"]
+                        departure_airport = D["airport"]
+                        departure_time = D["estimated"]
+                        arrival_time = i["arrival"]["estimated"]
+                        departure_delay = D["delay"]
+                        arrival_terminal = i["arrival"]["terminal"]
+                        arrival_gate = i["arrival"]["gate"]
+
+                        info += f"Flight IATA Code: {flight_code}, Departure Airport: {departure_airport},Departure Time:{departure_time}, Departure Delay: {departure_delay}, Arrival Time: {arrival_time}, Arrival Terminal: {arrival_terminal}, Arrival Gate: {arrival_gate}\n"                    
+
+
                         delayed_flights_exist = True
 
-                if not delayed_flights_exist:
-                    listt = 'No delayed flights\n'
+                    if not delayed_flights_exist:
+                        info = 'No delayed flights\n'
                 
-                sss.sendall(listt.encode())
+                sss.sendall(info.encode())
+            #if option.lower() == 'c':
+
+
+
+
     except Exception as e:
         print(f"Error handling client: {e}")
     finally:

@@ -7,7 +7,7 @@ port = 50000
 
 try:
     sc.connect((address, port))
-    print("✈️  ✈️  ✈️   Welcome to aviationstack   ✈️  ✈️  ✈️")
+    print("✈️  ✈️  ✈️   Welcome to Aviation Stack   ✈️  ✈️  ✈️")
     print(sc.recv(1024).decode('ascii'))
     client_name=input('>>>')
     sc.send(client_name.encode('ascii'))

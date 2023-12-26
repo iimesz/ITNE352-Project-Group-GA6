@@ -111,7 +111,8 @@ def option_C(sss):
                         info = 'No delayed flights\n'
                 
                 sss.sendall(info.encode())
-            #if option.lower() == 'c':
+                
+            if option.lower() == 'c':
 
 
 

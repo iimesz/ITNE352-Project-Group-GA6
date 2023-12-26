@@ -7,23 +7,32 @@ port = 50000
 
 try:
     sc.connect((address, port))
-    print("✈️  ✈️  ✈️   Welcome to Aviation Stack   ✈️  ✈️  ✈️")
+    print("✈  ✈  ✈   Welcome to aviationstack   ✈  ✈  ✈")
     print(sc.recv(1024).decode('ascii'))
     client_name=input('>>>')
     sc.send(client_name.encode('ascii'))
     while True:
-        
         Options = sc.recv(1024).decode('ascii')
         print(Options)
 
         option = input("Enter your choice (a, b, c, or d): ")
-        sc.send(option.encode('ascii'))
-        
 
-        response = sc.recv(65000).decode('ascii')
-        print(response)
+        if option.lower() == 'c':
+            sc.send(option.encode('ascii'))
+            ICAO = input('Enter the departure airport ICAO: ')
+            sc.send(ICAO.encode())
+            print(sc.recv(65000).decode('ascii'))
+        elif option.lower() == 'd':
+            sc.send(option.encode('ascii'))
+            Arrival_IATA = input('Enter Arrival IATA: ')
+            sc.send(Arrival_IATA.encode('ascii'))
+            print(sc.recv(65000).decode('utf-8'))
+        else:
+            sc.send(option.encode('ascii'))
+            response = sc.recv(65000).decode('ascii')
+            print(response)
 
-        exit = input("Do you want to quit ?? (y/n): ")
+        exit = input("Do you want to quit?? (y/n): ")
         if exit.lower() == 'y':
             print("Connection has been closed 🔌")
             print("Good Bye")

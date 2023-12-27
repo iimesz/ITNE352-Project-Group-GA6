@@ -4,88 +4,66 @@ import json
 import threading
 import sys
 
-# access key for API
-access_key = 'a5a5423540790ed7ad4db33bf14d26e9'
-
-# name of arr_icao
+#API 
+access_key = 'd7489824234d311924204a18bc9be0b7'
 arr_icao=input("Please enter airport code: ")
-
-# API_URL and PARAMS
 api_url ='http://api.aviationstack.com/v1/flights'
 params_i = {
     'access_key': access_key,
     'arr_icao': arr_icao,
     'limit': 100  
 }
-#THE RESPONSE AND CONVERT TO JSON
 response = requests.get(api_url , params=params_i )
-
 data = response.json()
 
 #STORE IN JSON FILE WITH NAME GA6.JSON 
 with open('GA6.json', 'w') as f:
         json.dump(data , f , indent=2)
+print('The server has been connection with API ✅')
 
-# creat a TCP socket        
 ss = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 address = '127.0.0.2'
 port = 50000
 ss.bind((address, port))
-print('=' * 20 + '  The server has been started ' + '=' * 20)
+print('=' * 20 + '  The server has been started ✔️   ' + '=' * 20)
 
-
-# Handle the client :
 def handle_clients():
-    
     while True:
-        
         sss, sockname = ss.accept()
-        t1 = threading.Thread(target=client_n, args=(sss,))
-        t2 = threading.Thread(target=option_C, args=(sss,))
-        my_threads.append(t)
-        t1.start()
-        t2.start()
+        t = threading.Thread(target=option_C, args=(sss, 'name'))
+        my_threads.append(t)  
 
-        if ss.fileno() == -1:
+        t.start()
+
+        if ss.fileno() == -1: #check if the socket close 
             print("Socket is closed.")
             break
 
-# Listen for clients
-ss.listen()
-
-def client_n(sss):
-    sss.send(b'Please enter the client name: ')
-    client_name = sss.recv(1024).decode('ascii')
-    print('Accepted request from', client_name)
-
-# option a , b, c, d
-def option_C(sss):
+ss.listen(3)
+def option_C(sss,name):
     try:
+        sss.send(' ✈️  ✈️  ✈️✈️ Welcome ✈️  ✈️✈️  ✈️  ✈️'.encode('utf-8'))
+        client_name = sss.recv(4000).decode('utf-8')
+        print('Accepted request from ' + client_name + '\n'+'-'*55 )
         while True:
-            sss.send(b"Options:\n"
-                    b"a. All arrived flights\n"
-                    b"b. All delayed flights\n"
-                    b"c. All flights from a specific airport\n"
-                    b"d. Details of a particular flight\n"
-                    b"Choose an option (a, b, c, or d): ")
-
-            option = sss.recv(1).decode('ascii')
+            option = sss.recv(1).decode('utf-8')
+            print('The client  '+ client_name +' is chose the option : '+ option + '\n'+'-'*55 )
 
             with open('GA6.json', 'r') as r:
                 data = json.load(r)
 
-            info = ''
+            info =''
 
             if option.lower() == 'a':
                 for i in data['data']:
                     if i["flight_status"] == 'landed':
                         flight_code = i["flight"]["iata"]
                         departure_airport = i["departure"]["airport"]
-                        arrival_time = i["arrival"]["estimated"]
+                        arrival_time = i["arrival"]["actual"]
                         arrival_terminal = i["arrival"]["terminal"]
                         arrival_gate = i["arrival"]["gate"]
 
-                        info += f"Flight IATA Code: {flight_code}, Departure Airport: {departure_airport}, Arrival Time: {arrival_time}, Arrival Terminal: {arrival_terminal}, Arrival Gate: {arrival_gate}\n"
+                        info += f"Flight IATA Code: {flight_code}\n, Departure Airport: {departure_airport}\n, Arrival Time: {arrival_time}\n, Arrival Terminal: {arrival_terminal}\n, Arrival Gate: {arrival_gate}\n '✈️  ✈️✈️  ✈️  ✈️✈️  ✈️✈️  ✈️  ✈️'\n"
                 sss.sendall(info.encode())
 
             elif option.lower() == 'b':
@@ -101,7 +79,7 @@ def option_C(sss):
                         arrival_terminal = D["terminal"]
                         arrival_gate = D["gate"]
 
-                        info += f"Flight IATA Code: {flight_code}, Departure Airport: {departure_airport},Departure Time:{departure_time}, Departure Delay: {departure_delay}, Arrival Time: {arrival_time}, Arrival Terminal: {arrival_terminal}, Arrival Gate: {arrival_gate}\n"
+                        info += f"Flight IATA Code: {flight_code}\n, Departure Airport: {departure_airport}\n,Departure Time:{departure_time}\n, Departure Delay: {departure_delay}\n, Arrival Time: {arrival_time}\n, Arrival Terminal: {arrival_terminal}\n, Arrival Gate: {arrival_gate}\n'✈️  ✈️✈️  ✈️  ✈️✈️  ✈️✈️  ✈️  ✈️\n'"
 
                         delayed_flights_exist = True
 
@@ -111,10 +89,10 @@ def option_C(sss):
                 sss.sendall(info.encode())
 
             elif option.lower() == 'c':
-                departure_ICAO = sss.recv(1024).decode('ascii')
-                departure_ICAO = departure_ICAO.upper()
+                departure_IATA = sss.recv(1024).decode('utf-8')
+                departure_IATA = departure_IATA.upper()
                 for i in data['data']:
-                    if i["departure"]["icao"] == departure_ICAO:
+                    if i["departure"]["iata"] == departure_IATA:
                         flight_code = i["flight"]["iata"]
                         departure_airport = i["departure"]["airport"]
                         departure_time = i["departure"]["estimated"]
@@ -122,14 +100,14 @@ def option_C(sss):
                         departure_gate = i["departure"]["gate"]
                         arrival_gate = i["arrival"]["gate"]
                         flight_status = i["flight_status"]
-                        info += f"Flight IATA Code: {flight_code}, Departure Airport: {departure_airport},Departure Time:{departure_time}, arrival time: {arrival_time}, Arrival Time: {arrival_time}, Departure Gate: {departure_gate}, Arrival Gate: {arrival_gate} , Flight Status : {flight_status}\n"
+                        info += f"Flight IATA Code: {flight_code}\n, Departure Airport: {departure_airport}\n,Departure Time:{departure_time}\n, arrival time: {arrival_time}\n, Arrival Time: {arrival_time}\n, Departure Gate: {departure_gate}\n, Arrival Gate: {arrival_gate}\n , Flight Status : {flight_status}\n'✈️  ✈️✈️  ✈️  ✈️✈️  ✈️✈️  ✈️  ✈️'\n"
                 sss.sendall(info.encode())
 
             elif option.lower() == 'd':
-                Arrival_IATA = sss.recv(1024).decode('ascii')
-                Arrival_IATA = Arrival_IATA.upper()
+                Fligth_IATA = sss.recv(1024).decode('utf-8')
+                Fligth_IATA = Fligth_IATA.upper()
                 for i in data['data']:
-                    if i["arrival"]["iata"] == Arrival_IATA:
+                    if i["flight"]["iata"] == Fligth_IATA:
                         flight_code = i["flight"]["iata"]
                         departure_airport = i["departure"]["airport"]
                         departure_gate = i["departure"]["gate"]
@@ -140,31 +118,27 @@ def option_C(sss):
                         flight_status = i["flight_status"]
                         departure_scheduled = i["departure"]["scheduled"]
                         arrival_scheduled = i["arrival"]["scheduled"]
-                        info += f"Flight IATA Code: {flight_code}, Departure Airport: {departure_airport},Departure Gate: {departure_gate}, Departure Terminal: {departure_terminal}, Arrival Airport: {arrival_airport}, Arrival Terminal: {arrival_terminal}, Arrival Gate: {arrival_gate}, Flight Status : {flight_status}, Departure Scheduled: {departure_scheduled}, Arrival Scheduled: {arrival_scheduled}\n"
+                        info += f"Flight IATA Code: {flight_code}\n, Departure Airport: {departure_airport}\n,Departure Gate: {departure_gate}\n, Departure Terminal: {departure_terminal}\n, Arrival Airport: {arrival_airport}\n, Arrival Terminal: {arrival_terminal}\n, Arrival Gate: {arrival_gate}\n, Flight Status : {flight_status}\n, Departure Scheduled: {departure_scheduled}\n, Arrival Scheduled: {arrival_scheduled}\n'✈️  ✈️✈️  ✈️  ✈️✈️  ✈️✈️  ✈️  ✈️'\n"
                 sss.sendall(info.encode())
+            elif option.lower() == 'q' :
+                print(client_name +'  has been disconnected 🔌' + '\n'+'-'*55)
+                break 
 
     except Exception as e:
-        print(f"Error handling client: {e}")
+        print(f"Error in handling client: {e}")
     finally:
         sss.close()
-     
-
-# threading 
+# main thread
 my_threads = []
-
 try:
     t = threading.Thread(target=handle_clients)
     t.start()
-
+#accept 3 client and close the server : 
     while True:
         if len(my_threads) >= 5:
-            print('End the server')
+            print('    End the server   ')
             break
-            
-
 except KeyboardInterrupt:
-    print('Server interrupted. Closing.')
-
-
+    print('Server interrupted. Closing.')   
 ss.close()
 sys.exit()

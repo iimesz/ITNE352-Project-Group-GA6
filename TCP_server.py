@@ -75,11 +75,11 @@ def option_C(sss,name):
                         departure_airport = i["departure"]["airport"]
                         departure_time = i["departure"]["estimated"]
                         arrival_time = D["estimated"]
-                        departure_delay = D["delay"]
+                        arrival_delay = D["delay"]
                         arrival_terminal = D["terminal"]
                         arrival_gate = D["gate"]
 
-                        info += f"Flight IATA Code: {flight_code}\n, Departure Airport: {departure_airport}\n,Departure Time:{departure_time}\n, Departure Delay: {departure_delay}\n, Arrival Time: {arrival_time}\n, Arrival Terminal: {arrival_terminal}\n, Arrival Gate: {arrival_gate}\n'✈️  ✈️✈️  ✈️  ✈️✈️  ✈️✈️  ✈️  ✈️\n'"
+                        info += f"Flight IATA Code: {flight_code}\n, Departure Airport: {departure_airport}\n,Departure Time:{departure_time}\n, Arrival Delay: {arrival_delay}\n, Arrival Time: {arrival_time}\n, Arrival Terminal: {arrival_terminal}\n, Arrival Gate: {arrival_gate}\n'✈️  ✈️✈️  ✈️  ✈️✈️  ✈️✈️  ✈️  ✈️\n'"
 
                         delayed_flights_exist = True
 
@@ -91,6 +91,7 @@ def option_C(sss,name):
             elif option.lower() == 'c':
                 departure_IATA = sss.recv(1024).decode('utf-8')
                 departure_IATA = departure_IATA.upper()
+                print(client_name +' serch for '+ departure_IATA+'\n'+'-'*55 )
                 for i in data['data']:
                     if i["departure"]["iata"] == departure_IATA:
                         flight_code = i["flight"]["iata"]
@@ -106,6 +107,7 @@ def option_C(sss,name):
             elif option.lower() == 'd':
                 Fligth_IATA = sss.recv(1024).decode('utf-8')
                 Fligth_IATA = Fligth_IATA.upper()
+                print(client_name +' serch for '+Fligth_IATA+'\n'+'-'*55 )
                 for i in data['data']:
                     if i["flight"]["iata"] == Fligth_IATA:
                         flight_code = i["flight"]["iata"]
@@ -135,7 +137,7 @@ try:
     t.start()
 #accept 3 client and close the server : 
     while True:
-        if len(my_threads) >= 5:
+        if len(my_threads) >= 3:
             print('    End the server   ')
             break
 except KeyboardInterrupt:

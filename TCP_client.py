@@ -45,7 +45,7 @@ def display():
     text_box.delete(1.0, END)
     text_box.insert(INSERT, response)
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     sc = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     address = '127.0.0.2'
     port = 50000

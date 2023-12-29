@@ -91,7 +91,7 @@ def option_C(sss,name):
             elif option.lower() == 'c':
                 departure_IATA = sss.recv(1024).decode('utf-8')
                 departure_IATA = departure_IATA.upper()
-                print(client_name +' serch for '+ departure_IATA+'\n'+'-'*55 )
+                print(client_name +' search for '+ departure_IATA+'\n'+'-'*55 )
                 for i in data['data']:
                     if i["departure"]["iata"] == departure_IATA:
                         flight_code = i["flight"]["iata"]
@@ -107,7 +107,7 @@ def option_C(sss,name):
             elif option.lower() == 'd':
                 Fligth_IATA = sss.recv(1024).decode('utf-8')
                 Fligth_IATA = Fligth_IATA.upper()
-                print(client_name +' serch for '+Fligth_IATA+'\n'+'-'*55 )
+                print(client_name +' search for '+Fligth_IATA+'\n'+'-'*55 )
                 for i in data['data']:
                     if i["flight"]["iata"] == Fligth_IATA:
                         flight_code = i["flight"]["iata"]

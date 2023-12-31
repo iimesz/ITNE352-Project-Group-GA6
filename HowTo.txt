@@ -1,17 +1,24 @@
 For system operation and feature access, please proceed through the following steps:
 
-1. Make sure to have a valid access key
-2. Have a valid access key ready
-3. Enter the airport code using 4 capitalized letters (e.g., YSSY)
-4. Run the Client script 
+1. Run the server script
+2. Enter the airport code using 4 capitalized letters (e.g., OBBI)
+3. when the server starts, run the client script 
 5. When prompted, please enter your name in the designated field
 6. Upon successful connection, the server will receive and display your name
+
 7. The available options will now be displayed. Please select your desired choice:
+
 	A. To display all the arrived flights at the airport
+
 	B. To display all the delayed flights in the airport
-	C. To display all the flights coming from a specific city. (A prompt will appear requesting the departure IATA code. Kindly provide the complete and accurate departure IATA code (e.g., PER).
-	D. To display the details of a particular flight. ( The system will prompt you for the flight IATA code. Please enter the complete and accurate flight IATA code as shown on your ticket or itinerary (e.g., JQ971).
-	Q. To end your session, please close the final window containing the disconnection message. This will terminate the connection on the server side. 
+
+	C. To display all the flights coming from a specific city. (Enter departure IATA code (e.g., COK)).
+
+	D. To display the details of a particular flight. ( Enter flight IATA code(e.g., GF271)).
+
+	Q. To end your session, this will terminate the connection. 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Highlights: 
 1. The server will present all of the information listed below in a clear and readily visible format:

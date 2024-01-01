@@ -16,7 +16,7 @@ For system operation and feature access, please proceed through the following st
 
 	D. To display the details of a particular flight. ( Enter flight IATA code(e.g., GF271)).
 
-	Q. To end your session, this will terminate the connection. 
+	Q. Select Quit to end your session, this will terminate the connection. 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

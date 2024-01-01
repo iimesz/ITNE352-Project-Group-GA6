@@ -146,7 +146,7 @@ try:
     t.start()
 #accept 3 client and close the server : 
     while True:
-        if len(my_threads) >= 3:
+        if len(my_threads) >= 5:
             print('    End the server   ')
             break
 except KeyboardInterrupt:

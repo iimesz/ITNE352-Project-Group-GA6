@@ -48,6 +48,10 @@ def option_C(sss,name):
         while True:
             option = sss.recv(1).decode('utf-8')
             print('The client  '+ client_name +' is chose the option : '+ option + '\n'+'-'*55 )
+            
+            if not option or option.lower() == 'q' :
+                print(client_name +'  has been disconnected 🔌' + '\n'+'-'*55)
+                break 
 
             with open('GA6.json', 'r') as r:
                 data = json.load(r)
@@ -64,8 +68,11 @@ def option_C(sss,name):
                         arrival_gate = i["arrival"]["gate"]
 
                         info += f"Flight IATA Code: {flight_code}\n, Departure Airport: {departure_airport}\n, Arrival Time: {arrival_time}\n, Arrival Terminal: {arrival_terminal}\n, Arrival Gate: {arrival_gate}\n '✈️  ✈️✈️  ✈️  ✈️✈️  ✈️✈️  ✈️  ✈️'\n"
-                sss.sendall(info.encode())
-
+                if not info :
+                    sss.sendall('No Arrived Fligth  '.encode('utf-8'))
+                else:
+                    sss.sendall(info.encode())
+                
             elif option.lower() == 'b':
                 delayed_flights_exist = False
                 for i in data['data']:
@@ -91,7 +98,7 @@ def option_C(sss,name):
             elif option.lower() == 'c':
                 departure_IATA = sss.recv(1024).decode('utf-8')
                 departure_IATA = departure_IATA.upper()
-                print(client_name +' search for '+ departure_IATA+'\n'+'-'*55 )
+                print(client_name +' serch for '+ departure_IATA+'\n'+'-'*55 )
                 for i in data['data']:
                     if i["departure"]["iata"] == departure_IATA:
                         flight_code = i["flight"]["iata"]
@@ -102,12 +109,14 @@ def option_C(sss,name):
                         arrival_gate = i["arrival"]["gate"]
                         flight_status = i["flight_status"]
                         info += f"Flight IATA Code: {flight_code}\n, Departure Airport: {departure_airport}\n,Departure Time:{departure_time}\n, arrival time: {arrival_time}\n, Arrival Time: {arrival_time}\n, Departure Gate: {departure_gate}\n, Arrival Gate: {arrival_gate}\n , Flight Status : {flight_status}\n'✈️  ✈️✈️  ✈️  ✈️✈️  ✈️✈️  ✈️  ✈️'\n"
-                sss.sendall(info.encode())
+                        sss.sendall(info.encode())
+                    elif not info :
+                        sss.sendall('NOT Found Departure IATA '.encode('utf-8'))
 
             elif option.lower() == 'd':
                 Fligth_IATA = sss.recv(1024).decode('utf-8')
                 Fligth_IATA = Fligth_IATA.upper()
-                print(client_name +' search for '+Fligth_IATA+'\n'+'-'*55 )
+                print(client_name +' serch for '+Fligth_IATA+'\n'+'-'*55 )
                 for i in data['data']:
                     if i["flight"]["iata"] == Fligth_IATA:
                         flight_code = i["flight"]["iata"]
@@ -121,13 +130,13 @@ def option_C(sss,name):
                         departure_scheduled = i["departure"]["scheduled"]
                         arrival_scheduled = i["arrival"]["scheduled"]
                         info += f"Flight IATA Code: {flight_code}\n, Departure Airport: {departure_airport}\n,Departure Gate: {departure_gate}\n, Departure Terminal: {departure_terminal}\n, Arrival Airport: {arrival_airport}\n, Arrival Terminal: {arrival_terminal}\n, Arrival Gate: {arrival_gate}\n, Flight Status : {flight_status}\n, Departure Scheduled: {departure_scheduled}\n, Arrival Scheduled: {arrival_scheduled}\n'✈️  ✈️✈️  ✈️  ✈️✈️  ✈️✈️  ✈️  ✈️'\n"
-                sss.sendall(info.encode())
-            elif option.lower() == 'q' :
-                print(client_name +'  has been disconnected 🔌' + '\n'+'-'*55)
-                break 
-
+                        sss.sendall(info.encode())
+                    elif not info :
+                        sss.sendall('NOT Found Fligth IATA '.encode('utf-8'))   
+                          
     except Exception as e:
         print(f"Error in handling client: {e}")
+        ss.close
     finally:
         sss.close()
 # main thread
